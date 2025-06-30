@@ -1,0 +1,461 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\1bec7980749e7c4e80cf563491c125fe\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\9178196526371e93637177090af02310\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\dd339656b9eb9e32a54d3f93a7fef392\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\7c06b3dd4a8047389212a800dff6c516\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\14652462cd1a20c23ba547bf5675957a\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\quizd\.gradle\caches\8.13\transforms\4a9d14230728efffc1f78ed89619ad66\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\818832b8520fc745ae91397edbb39d91\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\quizd\.gradle\caches\8.13\transforms\91651a18bfbe06c4de859def50183781\transformed\hilt-android-2.48.1\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\quizd\.gradle\caches\8.13\transforms\8877c544e8e48ee478c55375e37e90a7\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\cec89adbd2a3e033bcbfcd31ac3f32c0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\2e5015a5aeaed11e80335060e0237844\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\e33460ac6c199591575856d6cf9e028b\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\quizd\.gradle\caches\8.13\transforms\1ea20ee0bf756d30005e6641c88634df\transformed\fragment-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\4824c35b042e73818aaa567f2a71c170\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\214f25f74066b9e93eace26d342f7f59\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\134f728a921a8908b6a83c2a77e165a4\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8a5f04761a698b2ae0efba3aaca6ee7c\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3c33bbe6068c3dea87812bfd6cb828b1\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\093ba39891ee7b29eefa2959ad58370b\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\eb77aab284feac3f9ee7746eb7f431bd\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\7b8ab669beb413a918b5e476775b7ddd\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\df007e6f54f9b3dbd040a4d0014832e2\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\68ff9674ee4a93b5ee30252a756d46d8\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0d09e489c4c42484a5cdef489a4ff43c\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8d9b0cf2a0761fb8535aefd0735a090f\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\7f21af34c154578dc416d7acae3709f3\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\c92da2df9b9559b00f3138e11f09a32d\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\f4aa3ab41223e7afc62905d469ed778a\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0b2f51eb1995e1f8d69c95393dd62b99\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\b2faaf06a94fd7d8d1cf0f4ab727a678\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\quizd\.gradle\caches\8.13\transforms\eb1c428cfe0f1b68801141ef20e56899\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\quizd\.gradle\caches\8.13\transforms\ef9e80e75da5064e760162cc33fd77fe\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3937118a0d417c6b2e1d00f22eee189f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\294f9a333a0d55b7c6ba5d49005780d5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\934ca1b3b3b676cbd0278af3d11d83bc\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a41e34145ba1e180e430c4ef48077ea0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\f0da9d19a6e962c518bf75a12c197179\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\1927d0b113b40fcdc88cc850052445f3\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\2e98bf367f65549a1fc4c012a88eb4e9\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\401d475de9979fd59f2c44c0f2a39ea9\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\fa9e531f62e2232e5a2113337537ee12\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\b35bfd41c655fdc7183b17836a168603\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\dde48e5b491a3e0f6f850f9c1c09cbb5\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\2ace1ad49f7030186bace85a3231248e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\673526d7fca032db06065a0d90bbd591\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0539cbdeadf4259f502b8d967e22309e\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\42310cc9efb62f57ba28d80ea748a2e8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\f80e3c8d6fb244a40c69b8ace6f98030\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\af30c45cb9e7b7c3fe5c7329d084f1e2\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\435ba3eb2ad6320e0c84607381ce74fc\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8871e210210cd8cb050f92522669ef1b\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\4af052f8e98423fcae710bd83d3f9b76\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\4c06be5e248ca1238d4025de4ec923a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\8a812d7ce999c086564efefd87cf7738\transformed\lifecycle-runtime-compose-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\f06e4196a94fb90ff3f3912ac81a326a\transformed\lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\d6099edf5b02aca370f4065eb3d9ea70\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\d2f83fbbef9b9bcf5f1f140bcc6a9dd3\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3bfdf44f4607e78af1218f2a1dd6e5c7\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\d42fa0de18cfa7c7c4edaccd7a35fd72\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\359a6eaf025320b619236e14a4171072\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\5a69d519583273e2f40f4fed514c5983\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\eeabcf4d93e85f24a4f50f2038090b9c\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\cc71a4ad0921ed7ec812a299c8f7f5f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\50434e0f6f4a51f72a39d723ff99575f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\5d954bcb637cd78e282cca764bfd3be2\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\c7ba0a60d9b18d9c3eb221823ef7f55c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a346cd45e4c4320c3a3647f424ad60ce\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\1ab5777ed08568a615f33a61835150f2\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a8ef4eed837e8e2fa4a9a14aaa32cf2f\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\2c6480b34ca729d52a23020a8416d9cb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\d0b923854d480de6aba77fd44f628197\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.48.1] C:\Users\quizd\.gradle\caches\8.13\transforms\602958d72d1220de6171d39a5ce2d7a9\transformed\dagger-lint-aar-2.48.1\AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:6:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:13:22-76
+uses-feature#android.hardware.telephony
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:16:5-88
+	android:required
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:16:61-85
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:16:19-60
+application
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:18:5-51:19
+INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:18:5-51:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\quizd\.gradle\caches\8.13\transforms\4a9d14230728efffc1f78ed89619ad66\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\quizd\.gradle\caches\8.13\transforms\4a9d14230728efffc1f78ed89619ad66\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\quizd\.gradle\caches\8.13\transforms\8877c544e8e48ee478c55375e37e90a7\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\quizd\.gradle\caches\8.13\transforms\8877c544e8e48ee478c55375e37e90a7\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\cc71a4ad0921ed7ec812a299c8f7f5f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\cc71a4ad0921ed7ec812a299c8f7f5f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:24:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:22:9-54
+	android:roundIcon
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:25:9-54
+	tools:targetApi
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:28:9-29
+	android:icon
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:27:9-46
+	android:dataExtractionRules
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:21:9-65
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:19:9-44
+activity#com.yourname.budgetai.MainActivity
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:33:13-50
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:36:27-74
+receiver#com.yourname.budgetai.SmsReceiver
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:41:9-49:20
+	android:enabled
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:43:13-35
+	android:exported
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:44:13-36
+	android:permission
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:45:13-66
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:42:13-40
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:46:13-48:29
+	android:priority
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:46:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:47:17-82
+	android:name
+		ADDED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml:47:25-79
+uses-sdk
+INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\1bec7980749e7c4e80cf563491c125fe\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\1bec7980749e7c4e80cf563491c125fe\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\9178196526371e93637177090af02310\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\9178196526371e93637177090af02310\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\dd339656b9eb9e32a54d3f93a7fef392\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\dd339656b9eb9e32a54d3f93a7fef392\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\7c06b3dd4a8047389212a800dff6c516\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\7c06b3dd4a8047389212a800dff6c516\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\14652462cd1a20c23ba547bf5675957a\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\quizd\.gradle\caches\8.13\transforms\14652462cd1a20c23ba547bf5675957a\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\quizd\.gradle\caches\8.13\transforms\4a9d14230728efffc1f78ed89619ad66\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\quizd\.gradle\caches\8.13\transforms\4a9d14230728efffc1f78ed89619ad66\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\818832b8520fc745ae91397edbb39d91\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\818832b8520fc745ae91397edbb39d91\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\quizd\.gradle\caches\8.13\transforms\91651a18bfbe06c4de859def50183781\transformed\hilt-android-2.48.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\quizd\.gradle\caches\8.13\transforms\91651a18bfbe06c4de859def50183781\transformed\hilt-android-2.48.1\AndroidManifest.xml:18:3-42
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\quizd\.gradle\caches\8.13\transforms\8877c544e8e48ee478c55375e37e90a7\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\quizd\.gradle\caches\8.13\transforms\8877c544e8e48ee478c55375e37e90a7\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\cec89adbd2a3e033bcbfcd31ac3f32c0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\cec89adbd2a3e033bcbfcd31ac3f32c0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\2e5015a5aeaed11e80335060e0237844\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\2e5015a5aeaed11e80335060e0237844\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\e33460ac6c199591575856d6cf9e028b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\e33460ac6c199591575856d6cf9e028b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\quizd\.gradle\caches\8.13\transforms\1ea20ee0bf756d30005e6641c88634df\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\quizd\.gradle\caches\8.13\transforms\1ea20ee0bf756d30005e6641c88634df\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\4824c35b042e73818aaa567f2a71c170\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\4824c35b042e73818aaa567f2a71c170\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\214f25f74066b9e93eace26d342f7f59\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\214f25f74066b9e93eace26d342f7f59\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\134f728a921a8908b6a83c2a77e165a4\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\134f728a921a8908b6a83c2a77e165a4\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8a5f04761a698b2ae0efba3aaca6ee7c\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8a5f04761a698b2ae0efba3aaca6ee7c\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3c33bbe6068c3dea87812bfd6cb828b1\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3c33bbe6068c3dea87812bfd6cb828b1\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\093ba39891ee7b29eefa2959ad58370b\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\093ba39891ee7b29eefa2959ad58370b\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\eb77aab284feac3f9ee7746eb7f431bd\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\eb77aab284feac3f9ee7746eb7f431bd\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\7b8ab669beb413a918b5e476775b7ddd\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\7b8ab669beb413a918b5e476775b7ddd\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\df007e6f54f9b3dbd040a4d0014832e2\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\df007e6f54f9b3dbd040a4d0014832e2\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\68ff9674ee4a93b5ee30252a756d46d8\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\68ff9674ee4a93b5ee30252a756d46d8\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0d09e489c4c42484a5cdef489a4ff43c\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0d09e489c4c42484a5cdef489a4ff43c\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8d9b0cf2a0761fb8535aefd0735a090f\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8d9b0cf2a0761fb8535aefd0735a090f\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\7f21af34c154578dc416d7acae3709f3\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\7f21af34c154578dc416d7acae3709f3\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\c92da2df9b9559b00f3138e11f09a32d\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\c92da2df9b9559b00f3138e11f09a32d\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\f4aa3ab41223e7afc62905d469ed778a\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\f4aa3ab41223e7afc62905d469ed778a\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0b2f51eb1995e1f8d69c95393dd62b99\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0b2f51eb1995e1f8d69c95393dd62b99\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\b2faaf06a94fd7d8d1cf0f4ab727a678\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\quizd\.gradle\caches\8.13\transforms\b2faaf06a94fd7d8d1cf0f4ab727a678\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\quizd\.gradle\caches\8.13\transforms\eb1c428cfe0f1b68801141ef20e56899\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\quizd\.gradle\caches\8.13\transforms\eb1c428cfe0f1b68801141ef20e56899\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\quizd\.gradle\caches\8.13\transforms\ef9e80e75da5064e760162cc33fd77fe\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\quizd\.gradle\caches\8.13\transforms\ef9e80e75da5064e760162cc33fd77fe\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3937118a0d417c6b2e1d00f22eee189f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3937118a0d417c6b2e1d00f22eee189f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\294f9a333a0d55b7c6ba5d49005780d5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\294f9a333a0d55b7c6ba5d49005780d5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\934ca1b3b3b676cbd0278af3d11d83bc\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\934ca1b3b3b676cbd0278af3d11d83bc\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a41e34145ba1e180e430c4ef48077ea0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a41e34145ba1e180e430c4ef48077ea0\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\f0da9d19a6e962c518bf75a12c197179\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\f0da9d19a6e962c518bf75a12c197179\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\1927d0b113b40fcdc88cc850052445f3\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\1927d0b113b40fcdc88cc850052445f3\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\2e98bf367f65549a1fc4c012a88eb4e9\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\2e98bf367f65549a1fc4c012a88eb4e9\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\401d475de9979fd59f2c44c0f2a39ea9\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\401d475de9979fd59f2c44c0f2a39ea9\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\fa9e531f62e2232e5a2113337537ee12\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\fa9e531f62e2232e5a2113337537ee12\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\b35bfd41c655fdc7183b17836a168603\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\b35bfd41c655fdc7183b17836a168603\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\dde48e5b491a3e0f6f850f9c1c09cbb5\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\dde48e5b491a3e0f6f850f9c1c09cbb5\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\2ace1ad49f7030186bace85a3231248e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\2ace1ad49f7030186bace85a3231248e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\673526d7fca032db06065a0d90bbd591\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\673526d7fca032db06065a0d90bbd591\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0539cbdeadf4259f502b8d967e22309e\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\0539cbdeadf4259f502b8d967e22309e\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\42310cc9efb62f57ba28d80ea748a2e8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\42310cc9efb62f57ba28d80ea748a2e8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\f80e3c8d6fb244a40c69b8ace6f98030\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\f80e3c8d6fb244a40c69b8ace6f98030\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\af30c45cb9e7b7c3fe5c7329d084f1e2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\af30c45cb9e7b7c3fe5c7329d084f1e2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\435ba3eb2ad6320e0c84607381ce74fc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\435ba3eb2ad6320e0c84607381ce74fc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8871e210210cd8cb050f92522669ef1b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\quizd\.gradle\caches\8.13\transforms\8871e210210cd8cb050f92522669ef1b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\4af052f8e98423fcae710bd83d3f9b76\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\4af052f8e98423fcae710bd83d3f9b76\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\4c06be5e248ca1238d4025de4ec923a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\4c06be5e248ca1238d4025de4ec923a4\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\8a812d7ce999c086564efefd87cf7738\transformed\lifecycle-runtime-compose-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\8a812d7ce999c086564efefd87cf7738\transformed\lifecycle-runtime-compose-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\f06e4196a94fb90ff3f3912ac81a326a\transformed\lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\f06e4196a94fb90ff3f3912ac81a326a\transformed\lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\d6099edf5b02aca370f4065eb3d9ea70\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\d6099edf5b02aca370f4065eb3d9ea70\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\d2f83fbbef9b9bcf5f1f140bcc6a9dd3\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\d2f83fbbef9b9bcf5f1f140bcc6a9dd3\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3bfdf44f4607e78af1218f2a1dd6e5c7\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\3bfdf44f4607e78af1218f2a1dd6e5c7\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\d42fa0de18cfa7c7c4edaccd7a35fd72\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\quizd\.gradle\caches\8.13\transforms\d42fa0de18cfa7c7c4edaccd7a35fd72\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\359a6eaf025320b619236e14a4171072\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\359a6eaf025320b619236e14a4171072\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\5a69d519583273e2f40f4fed514c5983\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\5a69d519583273e2f40f4fed514c5983\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\eeabcf4d93e85f24a4f50f2038090b9c\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\quizd\.gradle\caches\8.13\transforms\eeabcf4d93e85f24a4f50f2038090b9c\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\cc71a4ad0921ed7ec812a299c8f7f5f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\cc71a4ad0921ed7ec812a299c8f7f5f8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\50434e0f6f4a51f72a39d723ff99575f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\quizd\.gradle\caches\8.13\transforms\50434e0f6f4a51f72a39d723ff99575f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\5d954bcb637cd78e282cca764bfd3be2\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\5d954bcb637cd78e282cca764bfd3be2\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\c7ba0a60d9b18d9c3eb221823ef7f55c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\c7ba0a60d9b18d9c3eb221823ef7f55c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a346cd45e4c4320c3a3647f424ad60ce\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a346cd45e4c4320c3a3647f424ad60ce\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\1ab5777ed08568a615f33a61835150f2\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\1ab5777ed08568a615f33a61835150f2\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a8ef4eed837e8e2fa4a9a14aaa32cf2f\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\a8ef4eed837e8e2fa4a9a14aaa32cf2f\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\2c6480b34ca729d52a23020a8416d9cb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\2c6480b34ca729d52a23020a8416d9cb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\d0b923854d480de6aba77fd44f628197\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\quizd\.gradle\caches\8.13\transforms\d0b923854d480de6aba77fd44f628197\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.48.1] C:\Users\quizd\.gradle\caches\8.13\transforms\602958d72d1220de6171d39a5ce2d7a9\transformed\dagger-lint-aar-2.48.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.48.1] C:\Users\quizd\.gradle\caches\8.13\transforms\602958d72d1220de6171d39a5ce2d7a9\transformed\dagger-lint-aar-2.48.1\AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\quizd\OneDrive\Desktop\ikofi\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\17d047be7b6ff867506b19e57210f4b1\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\quizd\.gradle\caches\8.13\transforms\5c759c6d0909b78374f7fda0c790600c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.yourname.budgetai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.yourname.budgetai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\quizd\.gradle\caches\8.13\transforms\352ee3e88e76defa92691d8bce0ce56c\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\quizd\.gradle\caches\8.13\transforms\9fe7c4cce9ad76902269b6e77d9b881c\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

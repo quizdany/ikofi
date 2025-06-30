@@ -52,6 +52,7 @@ class RegexSMSParser : SMSParser {
                 transactionType = TransactionType.CREDIT,
                 sender = sender,
                 receiver = null,
+                transactionId = null,
                 smsText = smsText,
                 timestamp = timestamp
             )
@@ -67,6 +68,7 @@ class RegexSMSParser : SMSParser {
                 transactionType = TransactionType.DEBIT,
                 sender = null,
                 receiver = receiver,
+                transactionId = null,
                 smsText = smsText,
                 timestamp = timestamp
             )
@@ -97,6 +99,7 @@ class RegexSMSParser : SMSParser {
                 transactionType = TransactionType.CREDIT,
                 sender = sender,
                 receiver = null,
+                transactionId = null,
                 smsText = smsText,
                 timestamp = timestamp
             )
@@ -112,6 +115,7 @@ class RegexSMSParser : SMSParser {
                 transactionType = TransactionType.DEBIT,
                 sender = null,
                 receiver = receiver,
+                transactionId = null,
                 smsText = smsText,
                 timestamp = timestamp
             )

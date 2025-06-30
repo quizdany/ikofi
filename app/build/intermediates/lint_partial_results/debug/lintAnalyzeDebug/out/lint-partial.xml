@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.11.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.yourname.budgetai.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U)],style[Theme_BudgetAI(U),Theme_MaterialComponents_DayNight(R)],xml[data_extraction_rules(U),backup_rules(U)];3^4;;;"/>
+    </map>
+
+</incidents>

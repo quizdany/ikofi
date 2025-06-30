@@ -7,18 +7,22 @@ import android.provider.Telephony
 import android.util.Log
 import com.yourname.budgetai.domain.usecases.ParseSMSUseCase
 import com.yourname.budgetai.utils.SMSUtils
-import dagger.hilt.android.AndroidEntryPoint
+import dagger.hilt.EntryPoint
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
+import dagger.hilt.android.EntryPointAccessors
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.Date
-import javax.inject.Inject
 
-@AndroidEntryPoint
+@EntryPoint
+@InstallIn(SingletonComponent::class)
+interface SmsReceiverEntryPoint {
+    fun parseSMSUseCase(): ParseSMSUseCase
+}
+
 class SmsReceiver : BroadcastReceiver() {
-    
-    @Inject
-    lateinit var parseSMSUseCase: ParseSMSUseCase
     
     companion object {
         private const val TAG = "SmsReceiver"
@@ -37,6 +41,11 @@ class SmsReceiver : BroadcastReceiver() {
                     Log.d(TAG, "Mobile money SMS detected: $smsText")
                     
                     // Parse and store the transaction
+                    val entryPoint = EntryPointAccessors.fromApplication(
+                        context.applicationContext,
+                        SmsReceiverEntryPoint::class.java
+                    )
+                    val parseSMSUseCase = entryPoint.parseSMSUseCase()
                     CoroutineScope(Dispatchers.IO).launch {
                         try {
                             val success = parseSMSUseCase.execute(smsText, timestamp)

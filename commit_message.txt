@@ -1,0 +1,1 @@
+feat: Added the button functionality for manual entries.

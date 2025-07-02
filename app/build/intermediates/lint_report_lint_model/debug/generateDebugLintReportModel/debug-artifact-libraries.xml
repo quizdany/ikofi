@@ -104,6 +104,32 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.compose.animation:animation-core-android:1.6.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\eb77aab284feac3f9ee7746eb7f431bd\transformed\animation-core-release\jars\classes.jar"
+      resolved="androidx.compose.animation:animation-core-android:1.6.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\eb77aab284feac3f9ee7746eb7f431bd\transformed\animation-core-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.compose.animation:animation-graphics-android:1.6.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\e92194be169e04c971a386c80797f6a1\transformed\animation-graphics-release\jars\classes.jar"
+      resolved="androidx.compose.animation:animation-graphics-android:1.6.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\e92194be169e04c971a386c80797f6a1\transformed\animation-graphics-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.compose.material3:material3-android:1.2.0@aar"
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\818832b8520fc745ae91397edbb39d91\transformed\material3-release\jars\classes.jar"
       resolved="androidx.compose.material3:material3-android:1.2.0"
@@ -173,19 +199,6 @@
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\093ba39891ee7b29eefa2959ad58370b\transformed\foundation-release\jars\classes.jar"
       resolved="androidx.compose.foundation:foundation-android:1.6.0"
       folder="C:\Users\quizd\.gradle\caches\8.13\transforms\093ba39891ee7b29eefa2959ad58370b\transformed\foundation-release"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.compose.animation:animation-core-android:1.6.0@aar"
-      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\eb77aab284feac3f9ee7746eb7f431bd\transformed\animation-core-release\jars\classes.jar"
-      resolved="androidx.compose.animation:animation-core-android:1.6.0"
-      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\eb77aab284feac3f9ee7746eb7f431bd\transformed\animation-core-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -377,6 +390,136 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.mlkit:text-recognition:16.0.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\dfa14177c0f1e42e09cd40e436896b0a\transformed\text-recognition-16.0.0\jars\classes.jar"
+      resolved="com.google.mlkit:text-recognition:16.0.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\dfa14177c0f1e42e09cd40e436896b0a\transformed\text-recognition-16.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-mlkit-text-recognition:19.0.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\96555ad5850be5b3aee6c947b3b01d18\transformed\play-services-mlkit-text-recognition-19.0.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-mlkit-text-recognition:19.0.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\96555ad5850be5b3aee6c947b3b01d18\transformed\play-services-mlkit-text-recognition-19.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.mlkit:text-recognition-bundled-common:16.0.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\99f548159a8e941a55afb1ddbdfc0544\transformed\text-recognition-bundled-common-16.0.0\jars\classes.jar"
+      resolved="com.google.mlkit:text-recognition-bundled-common:16.0.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\99f548159a8e941a55afb1ddbdfc0544\transformed\text-recognition-bundled-common-16.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\77de398b61b41ed31e14b44267160e1a\transformed\play-services-mlkit-text-recognition-common-19.0.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\77de398b61b41ed31e14b44267160e1a\transformed\play-services-mlkit-text-recognition-common-19.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.mlkit:vision-common:17.3.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\356164b13306bc474da0434ce6ae3377\transformed\vision-common-17.3.0\jars\classes.jar"
+      resolved="com.google.mlkit:vision-common:17.3.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\356164b13306bc474da0434ce6ae3377\transformed\vision-common-17.3.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.mlkit:common:18.8.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\01582e4aa9ff1778f9aa5c0eb3346931\transformed\common-18.8.0\jars\classes.jar"
+      resolved="com.google.mlkit:common:18.8.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\01582e4aa9ff1778f9aa5c0eb3346931\transformed\common-18.8.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-base:18.1.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\597309874a21035a54e83ab33a8364ae\transformed\play-services-base-18.1.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-base:18.1.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\597309874a21035a54e83ab33a8364ae\transformed\play-services-base-18.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.mlkit:vision-interfaces:16.2.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\6680fd7b28edfa8535ab0ce317dd39ea\transformed\vision-interfaces-16.2.0\jars\classes.jar"
+      resolved="com.google.mlkit:vision-interfaces:16.2.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\6680fd7b28edfa8535ab0ce317dd39ea\transformed\vision-interfaces-16.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-tasks:18.0.2@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\c35e87f76352b50d4df53c68cf43295b\transformed\play-services-tasks-18.0.2\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-tasks:18.0.2"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\c35e87f76352b50d4df53c68cf43295b\transformed\play-services-tasks-18.0.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-basement:18.1.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\4ff2bed6872648a6d12f5a7801d4eabf\transformed\play-services-basement-18.1.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-basement:18.1.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\4ff2bed6872648a6d12f5a7801d4eabf\transformed\play-services-basement-18.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.viewpager2:viewpager2:1.0.0@aar"
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\e33460ac6c199591575856d6cf9e028b\transformed\viewpager2-1.0.0\jars\classes.jar"
       resolved="androidx.viewpager2:viewpager2:1.0.0"
@@ -407,6 +550,32 @@
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\4824c35b042e73818aaa567f2a71c170\transformed\activity-1.8.2\jars\classes.jar"
       resolved="androidx.activity:activity:1.8.2"
       folder="C:\Users\quizd\.gradle\caches\8.13\transforms\4824c35b042e73818aaa567f2a71c170\transformed\activity-1.8.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.work:work-runtime-ktx:2.9.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\d2312dd12feab20a585f1ca9691e3b3e\transformed\work-runtime-ktx-2.9.0\jars\classes.jar"
+      resolved="androidx.work:work-runtime-ktx:2.9.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\d2312dd12feab20a585f1ca9691e3b3e\transformed\work-runtime-ktx-2.9.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.work:work-runtime:2.9.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\49446d8be6d638ab9304b46f2c8ab66b\transformed\work-runtime-2.9.0\jars\classes.jar"
+      resolved="androidx.work:work-runtime:2.9.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\49446d8be6d638ab9304b46f2c8ab66b\transformed\work-runtime-2.9.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -753,6 +922,32 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.datastore:datastore-preferences:1.0.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\f64788da99e6df004b66cf7d12fe7b5f\transformed\datastore-preferences-1.0.0\jars\classes.jar"
+      resolved="androidx.datastore:datastore-preferences:1.0.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\f64788da99e6df004b66cf7d12fe7b5f\transformed\datastore-preferences-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.datastore:datastore:1.0.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\a880983e536a0df75d9444c027a893e3\transformed\datastore-1.0.0\jars\classes.jar"
+      resolved="androidx.datastore:datastore:1.0.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\a880983e536a0df75d9444c027a893e3\transformed\datastore-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.compose.runtime:runtime-saveable-android:1.6.0@aar"
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\3bfdf44f4607e78af1218f2a1dd6e5c7\transformed\runtime-saveable-release\jars\classes.jar"
       resolved="androidx.compose.runtime:runtime-saveable-android:1.6.0"
@@ -779,6 +974,14 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.datastore:datastore-preferences-core:1.0.0@jar"
+      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\androidx.datastore\datastore-preferences-core\1.0.0\403f64499b9a8994f5f7010329ddd1ee5c919ed5\datastore-preferences-core-1.0.0.jar"
+      resolved="androidx.datastore:datastore-preferences-core:1.0.0"/>
+  <library
+      name="androidx.datastore:datastore-core:1.0.0@jar"
+      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\androidx.datastore\datastore-core\1.0.0\91b04fb657294e2906d95dce6a9e5a851f6125c1\datastore-core-1.0.0.jar"
+      resolved="androidx.datastore:datastore-core:1.0.0"/>
+  <library
       name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3@jar"
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.7.3\2b09627576f0989a436a00a4a54b55fa5026fb86\kotlinx-coroutines-core-jvm-1.7.3.jar"
       resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3"/>
@@ -787,9 +990,65 @@
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-android\1.7.3\38d9cad3a0b03a10453b56577984bdeb48edeed5\kotlinx-coroutines-android-1.7.3.jar"
       resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"/>
   <library
+      name="com.airbnb.android:lottie-compose:6.2.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\7790510517c82ca4c7381412337dccf9\transformed\lottie-compose-6.2.0\jars\classes.jar"
+      resolved="com.airbnb.android:lottie-compose:6.2.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\7790510517c82ca4c7381412337dccf9\transformed\lottie-compose-6.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="co.yml:ycharts:2.1.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\33d4538c1bfa993dc3a987085aed4460\transformed\ycharts-2.1.0\jars\classes.jar"
+      resolved="co.yml:ycharts:2.1.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\33d4538c1bfa993dc3a987085aed4460\transformed\ycharts-2.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="io.github.vanpra.compose-material-dialogs:datetime:0.9.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\3cdc584189ffc6702c0afeeb3b58903d\transformed\datetime-0.9.0\jars\classes.jar"
+      resolved="io.github.vanpra.compose-material-dialogs:datetime:0.9.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\3cdc584189ffc6702c0afeeb3b58903d\transformed\datetime-0.9.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10@jar"
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\1.9.10\c7510d64a83411a649c76f2778304ddf71d7437b\kotlin-stdlib-jdk8-1.9.10.jar"
       resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"/>
+  <library
+      name="com.google.code.gson:gson:2.10.1@jar"
+      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10.1\b3add478d4382b78ea20b1671390a858002feb6c\gson-2.10.1.jar"
+      resolved="com.google.code.gson:gson:2.10.1"/>
+  <library
+      name="com.github.PhilJay:MPAndroidChart:v3.1.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\724f94f95ae64b5c2b224b80798bf3e4\transformed\MPAndroidChart-v3.1.0\jars\classes.jar"
+      resolved="com.github.PhilJay:MPAndroidChart:v3.1.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\724f94f95ae64b5c2b224b80798bf3e4\transformed\MPAndroidChart-v3.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10@jar"
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.9.10\bc5bfc2690338defd5195b05c57562f2194eeb10\kotlin-stdlib-jdk7-1.9.10.jar"
@@ -903,6 +1162,75 @@
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar"
       resolved="androidx.arch.core:core-common:2.2.0"/>
   <library
+      name="com.google.android.datatransport:transport-backend-cct:2.3.3@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\ff82089cad64c1f4f88a29bc6c819b15\transformed\transport-backend-cct-2.3.3\jars\classes.jar"
+      resolved="com.google.android.datatransport:transport-backend-cct:2.3.3"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\ff82089cad64c1f4f88a29bc6c819b15\transformed\transport-backend-cct-2.3.3"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.datatransport:transport-runtime:2.2.6@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\a304750f77e5675f7bdbfe67ebd0f167\transformed\transport-runtime-2.2.6\jars\classes.jar"
+      resolved="com.google.android.datatransport:transport-runtime:2.2.6"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\a304750f77e5675f7bdbfe67ebd0f167\transformed\transport-runtime-2.2.6"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.datatransport:transport-api:2.2.1@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\d9aa85236068533ac4ec8f51c59d897d\transformed\transport-api-2.2.1\jars\classes.jar"
+      resolved="com.google.android.datatransport:transport-api:2.2.1"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\d9aa85236068533ac4ec8f51c59d897d\transformed\transport-api-2.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-components:16.1.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\c815314c9c6064958732e7fbde16db6d\transformed\firebase-components-16.1.0\jars\classes.jar"
+      resolved="com.google.firebase:firebase-components:16.1.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\c815314c9c6064958732e7fbde16db6d\transformed\firebase-components-16.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-encoders-json:17.1.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\ad6f776c0d6726ac83e6d2eb103e13cc\transformed\firebase-encoders-json-17.1.0\jars\classes.jar"
+      resolved="com.google.firebase:firebase-encoders-json:17.1.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\ad6f776c0d6726ac83e6d2eb103e13cc\transformed\firebase-encoders-json-17.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-encoders:16.1.0@jar"
+      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-encoders\16.1.0\267565db8531da1483692e27eb58f93ec894c78\firebase-encoders-16.1.0.jar"
+      resolved="com.google.firebase:firebase-encoders:16.1.0"/>
+  <library
       name="androidx.cursoradapter:cursoradapter:1.0.0@aar"
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\a346cd45e4c4320c3a3647f424ad60ce\transformed\cursoradapter-1.0.0\jars\classes.jar"
       resolved="androidx.cursoradapter:cursoradapter:1.0.0"
@@ -919,6 +1247,19 @@
       name="androidx.collection:collection-jvm:1.4.0@jar"
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\androidx.collection\collection-jvm\1.4.0\e209fb7bd1183032f55a0408121c6251a81acb49\collection-jvm-1.4.0.jar"
       resolved="androidx.collection:collection-jvm:1.4.0"/>
+  <library
+      name="androidx.exifinterface:exifinterface:1.0.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\36e8ed1107d37e939a36b09d756443be\transformed\exifinterface-1.0.0\jars\classes.jar"
+      resolved="androidx.exifinterface:exifinterface:1.0.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\36e8ed1107d37e939a36b09d756443be\transformed\exifinterface-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
   <library
       name="androidx.documentfile:documentfile:1.0.0@aar"
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\a8ef4eed837e8e2fa4a9a14aaa32cf2f\transformed\documentfile-1.0.0\jars\classes.jar"
@@ -988,13 +1329,39 @@
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar"
       resolved="org.jetbrains:annotations:23.0.0"/>
   <library
+      name="com.google.guava:listenablefuture:1.0@jar"
+      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\1.0\c949a840a6acbc5268d088e47b04177bf90b3cad\listenablefuture-1.0.jar"
+      resolved="com.google.guava:listenablefuture:1.0"/>
+  <library
+      name="androidx.startup:startup-runtime:1.1.1@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\jars\classes.jar"
+      resolved="androidx.startup:startup-runtime:1.1.1"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.airbnb.android:lottie:6.2.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\fb59a3a144181c4617cd4fd2222e1719\transformed\lottie-6.2.0\jars\classes.jar"
+      resolved="com.airbnb.android:lottie:6.2.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\fb59a3a144181c4617cd4fd2222e1719\transformed\lottie-6.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar"
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\androidx.resourceinspection\resourceinspection-annotation\1.0.1\8c21f8ff5d96d5d52c948707f7e4d6ca6773feef\resourceinspection-annotation-1.0.1.jar"
       resolved="androidx.resourceinspection:resourceinspection-annotation:1.0.1"/>
-  <library
-      name="androidx.constraintlayout:constraintlayout-solver:2.0.1@jar"
-      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\androidx.constraintlayout\constraintlayout-solver\2.0.1\30988fe2d77f3fe3bf7551bb8a8b795fad7e7226\constraintlayout-solver-2.0.1.jar"
-      resolved="androidx.constraintlayout:constraintlayout-solver:2.0.1"/>
   <library
       name="com.google.dagger:hilt-core:2.48.1@jar"
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.google.dagger\hilt-core\2.48.1\f28429fcfabf0719b76c50709bcfd64106e7c9bf\hilt-core-2.48.1.jar"
@@ -1007,6 +1374,40 @@
       name="javax.inject:javax.inject:1@jar"
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
       resolved="javax.inject:javax.inject:1"/>
+  <library
+      name="com.google.android.odml:image:1.0.0-beta1@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\1f8c752514afb4e21881ffb5640a835d\transformed\image-1.0.0-beta1\jars\classes.jar"
+      resolved="com.google.android.odml:image:1.0.0-beta1"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\1f8c752514afb4e21881ffb5640a835d\transformed\image-1.0.0-beta1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-annotations:16.0.0@jar"
+      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-annotations\16.0.0\dbeae20d6c97b747b59ef47b6dcf770ba1a60fa6\firebase-annotations-16.0.0.jar"
+      resolved="com.google.firebase:firebase-annotations:16.0.0"/>
+  <library
+      name="io.github.vanpra.compose-material-dialogs:core:0.9.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\67390d427e745b70a14ab3fb88edcbc7\transformed\core-0.9.0\jars\classes.jar"
+      resolved="io.github.vanpra.compose-material-dialogs:core:0.9.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\67390d427e745b70a14ab3fb88edcbc7\transformed\core-0.9.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.constraintlayout:constraintlayout-solver:2.0.1@jar"
+      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\androidx.constraintlayout\constraintlayout-solver\2.0.1\30988fe2d77f3fe3bf7551bb8a8b795fad7e7226\constraintlayout-solver-2.0.1.jar"
+      resolved="androidx.constraintlayout:constraintlayout-solver:2.0.1"/>
   <library
       name="com.google.dagger:dagger-lint-aar:2.48.1@aar"
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\602958d72d1220de6171d39a5ce2d7a9\transformed\dagger-lint-aar-2.48.1\jars\classes.jar"
@@ -1024,6 +1425,45 @@
       name="com.google.code.findbugs:jsr305:3.0.2@jar"
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar"
       resolved="com.google.code.findbugs:jsr305:3.0.2"/>
+  <library
+      name="androidx.compose.material3:material3-window-size-class-android:1.2.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\ffb6a41a0476589a27cfc548318981a0\transformed\material3-window-size-class-release\jars\classes.jar"
+      resolved="androidx.compose.material3:material3-window-size-class-android:1.2.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\ffb6a41a0476589a27cfc548318981a0\transformed\material3-window-size-class-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.accompanist:accompanist-pager:0.25.1@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\3fc07565cb286aea17cf5e153d8b9a4c\transformed\accompanist-pager-0.25.1\jars\classes.jar"
+      resolved="com.google.accompanist:accompanist-pager:0.25.1"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\3fc07565cb286aea17cf5e153d8b9a4c\transformed\accompanist-pager-0.25.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="dev.chrisbanes.snapper:snapper:0.2.2@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\4ae43c16d289e97e9f679131d1ccc62f\transformed\snapper-0.2.2\jars\classes.jar"
+      resolved="dev.chrisbanes.snapper:snapper:0.2.2"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\4ae43c16d289e97e9f679131d1ccc62f\transformed\snapper-0.2.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material:material-android:1.6.0@aar"
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\9c94373fa9675a6750830e6f11eb5ddd\transformed\material-release\jars\classes.jar"
@@ -1077,10 +1517,36 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.lifecycle:lifecycle-service:2.6.2@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\34e6a586357d1d0eb4fa02db9c1a553a\transformed\lifecycle-service-2.6.2\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-service:2.6.2"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\34e6a586357d1d0eb4fa02db9c1a553a\transformed\lifecycle-service-2.6.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.customview:customview-poolingcontainer:1.0.0@aar"
       jars="C:\Users\quizd\.gradle\caches\8.13\transforms\b35bfd41c655fdc7183b17836a168603\transformed\customview-poolingcontainer-1.0.0\jars\classes.jar"
       resolved="androidx.customview:customview-poolingcontainer:1.0.0"
       folder="C:\Users\quizd\.gradle\caches\8.13\transforms\b35bfd41c655fdc7183b17836a168603\transformed\customview-poolingcontainer-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.window:window:1.0.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\b388d7f6d646f5c4314a4d454d4d8eb1\transformed\window-1.0.0\jars\classes.jar"
+      resolved="androidx.window:window:1.0.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\b388d7f6d646f5c4314a4d454d4d8eb1\transformed\window-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1107,10 +1573,10 @@
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\androidx.collection\collection-ktx\1.4.0\2ad14aed781c4a73ed4dbb421966d408a0a06686\collection-ktx-1.4.0.jar"
       resolved="androidx.collection:collection-ktx:1.4.0"/>
   <library
-      name="androidx.profileinstaller:profileinstaller:1.3.0@aar"
-      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\jars\classes.jar"
-      resolved="androidx.profileinstaller:profileinstaller:1.3.0"
-      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0"
+      name="io.github.aakira:napier-android-debug:1.4.1@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\97cc26d8fde330f48a82e9212a0fc8cd\transformed\napier-debug\jars\classes.jar"
+      resolved="io.github.aakira:napier-android-debug:1.4.1"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\97cc26d8fde330f48a82e9212a0fc8cd\transformed\napier-debug"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1120,10 +1586,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.startup:startup-runtime:1.1.1@aar"
-      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1\jars\classes.jar"
-      resolved="androidx.startup:startup-runtime:1.1.1"
-      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\be173b58e56e08ede7b4ebc2abb3aab6\transformed\startup-runtime-1.1.1"
+      name="androidx.profileinstaller:profileinstaller:1.3.0@aar"
+      jars="C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0\jars\classes.jar"
+      resolved="androidx.profileinstaller:profileinstaller:1.3.0"
+      folder="C:\Users\quizd\.gradle\caches\8.13\transforms\cccede1cc93b69fbb45a813a0cf2e5da\transformed\profileinstaller-1.3.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1154,7 +1620,7 @@
       jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.15.0\38c8485a652f808c8c149150da4e5c2b0bd17f9a\error_prone_annotations-2.15.0.jar"
       resolved="com.google.errorprone:error_prone_annotations:2.15.0"/>
   <library
-      name="com.google.guava:listenablefuture:1.0@jar"
-      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\1.0\c949a840a6acbc5268d088e47b04177bf90b3cad\listenablefuture-1.0.jar"
-      resolved="com.google.guava:listenablefuture:1.0"/>
+      name="com.squareup.okio:okio:1.17.6@jar"
+      jars="C:\Users\quizd\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.17.6\fca77ce5f3ce6fa8a65738a31e34b87ccd289f71\okio-1.17.6.jar"
+      resolved="com.squareup.okio:okio:1.17.6"/>
 </libraries>

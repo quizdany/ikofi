@@ -14,15 +14,14 @@ data class Transaction(
     val sender: String?,
     val receiver: String?,
     val transactionId: String?,
-    val smsText: String,
+    val description: String, // Renamed from smsText
     val timestamp: Date,
     val category: String? = null,
     val isProcessed: Boolean = false,
-    val createdAt: Date = Date()
+    val createdAt: Date = Date(),
+    val provider: MobileMoneyProvider = MobileMoneyProvider.UNKNOWN,
+    val balance: Double? = null,
+    val confidence: Float = 0.0f,
+    val isAutomatic: Boolean = false,
+    val needsReview: Boolean = false
 )
-
-enum class TransactionType {
-    CREDIT,    // Money received
-    DEBIT,     // Money sent
-    UNKNOWN
-} 

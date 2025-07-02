@@ -13,6 +13,7 @@ import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
+import com.yourname.budgetai.data.models.MobileMoneyProvider;
 import com.yourname.budgetai.data.models.Transaction;
 import com.yourname.budgetai.data.models.TransactionType;
 import java.lang.Class;
@@ -57,7 +58,7 @@ public final class TransactionDao_Impl implements TransactionDao {
       @Override
       @NonNull
       protected String createQuery() {
-        return "INSERT OR REPLACE INTO `transactions` (`id`,`amount`,`currency`,`transactionType`,`sender`,`receiver`,`transactionId`,`smsText`,`timestamp`,`category`,`isProcessed`,`createdAt`) VALUES (nullif(?, 0),?,?,?,?,?,?,?,?,?,?,?)";
+        return "INSERT OR REPLACE INTO `transactions` (`id`,`amount`,`currency`,`transactionType`,`sender`,`receiver`,`transactionId`,`smsText`,`timestamp`,`category`,`isProcessed`,`createdAt`,`provider`,`balance`,`confidence`,`isAutomatic`,`needsReview`) VALUES (nullif(?, 0),?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
       }
 
       @Override
@@ -110,6 +111,17 @@ public final class TransactionDao_Impl implements TransactionDao {
         } else {
           statement.bindLong(12, _tmp_2);
         }
+        statement.bindString(13, __MobileMoneyProvider_enumToString(entity.getProvider()));
+        if (entity.getBalance() == null) {
+          statement.bindNull(14);
+        } else {
+          statement.bindDouble(14, entity.getBalance());
+        }
+        statement.bindDouble(15, entity.getConfidence());
+        final int _tmp_3 = entity.isAutomatic() ? 1 : 0;
+        statement.bindLong(16, _tmp_3);
+        final int _tmp_4 = entity.getNeedsReview() ? 1 : 0;
+        statement.bindLong(17, _tmp_4);
       }
     };
     this.__deletionAdapterOfTransaction = new EntityDeletionOrUpdateAdapter<Transaction>(__db) {
@@ -129,7 +141,7 @@ public final class TransactionDao_Impl implements TransactionDao {
       @Override
       @NonNull
       protected String createQuery() {
-        return "UPDATE OR ABORT `transactions` SET `id` = ?,`amount` = ?,`currency` = ?,`transactionType` = ?,`sender` = ?,`receiver` = ?,`transactionId` = ?,`smsText` = ?,`timestamp` = ?,`category` = ?,`isProcessed` = ?,`createdAt` = ? WHERE `id` = ?";
+        return "UPDATE OR ABORT `transactions` SET `id` = ?,`amount` = ?,`currency` = ?,`transactionType` = ?,`sender` = ?,`receiver` = ?,`transactionId` = ?,`smsText` = ?,`timestamp` = ?,`category` = ?,`isProcessed` = ?,`createdAt` = ?,`provider` = ?,`balance` = ?,`confidence` = ?,`isAutomatic` = ?,`needsReview` = ? WHERE `id` = ?";
       }
 
       @Override
@@ -182,7 +194,18 @@ public final class TransactionDao_Impl implements TransactionDao {
         } else {
           statement.bindLong(12, _tmp_2);
         }
-        statement.bindLong(13, entity.getId());
+        statement.bindString(13, __MobileMoneyProvider_enumToString(entity.getProvider()));
+        if (entity.getBalance() == null) {
+          statement.bindNull(14);
+        } else {
+          statement.bindDouble(14, entity.getBalance());
+        }
+        statement.bindDouble(15, entity.getConfidence());
+        final int _tmp_3 = entity.isAutomatic() ? 1 : 0;
+        statement.bindLong(16, _tmp_3);
+        final int _tmp_4 = entity.getNeedsReview() ? 1 : 0;
+        statement.bindLong(17, _tmp_4);
+        statement.bindLong(18, entity.getId());
       }
     };
     this.__preparedStmtOfDeleteAllTransactions = new SharedSQLiteStatement(__db) {
@@ -330,7 +353,7 @@ public final class TransactionDao_Impl implements TransactionDao {
 
   @Override
   public Flow<List<Transaction>> getAllTransactions() {
-    final String _sql = "SELECT `transactions`.`id` AS `id`, `transactions`.`amount` AS `amount`, `transactions`.`currency` AS `currency`, `transactions`.`transactionType` AS `transactionType`, `transactions`.`sender` AS `sender`, `transactions`.`receiver` AS `receiver`, `transactions`.`transactionId` AS `transactionId`, `transactions`.`smsText` AS `smsText`, `transactions`.`timestamp` AS `timestamp`, `transactions`.`category` AS `category`, `transactions`.`isProcessed` AS `isProcessed`, `transactions`.`createdAt` AS `createdAt` FROM transactions ORDER BY timestamp DESC";
+    final String _sql = "SELECT `transactions`.`id` AS `id`, `transactions`.`amount` AS `amount`, `transactions`.`currency` AS `currency`, `transactions`.`transactionType` AS `transactionType`, `transactions`.`sender` AS `sender`, `transactions`.`receiver` AS `receiver`, `transactions`.`transactionId` AS `transactionId`, `transactions`.`smsText` AS `smsText`, `transactions`.`timestamp` AS `timestamp`, `transactions`.`category` AS `category`, `transactions`.`isProcessed` AS `isProcessed`, `transactions`.`createdAt` AS `createdAt`, `transactions`.`provider` AS `provider`, `transactions`.`balance` AS `balance`, `transactions`.`confidence` AS `confidence`, `transactions`.`isAutomatic` AS `isAutomatic`, `transactions`.`needsReview` AS `needsReview` FROM transactions ORDER BY timestamp DESC";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     return CoroutinesRoom.createFlow(__db, false, new String[] {"transactions"}, new Callable<List<Transaction>>() {
       @Override
@@ -350,6 +373,11 @@ public final class TransactionDao_Impl implements TransactionDao {
           final int _cursorIndexOfCategory = 9;
           final int _cursorIndexOfIsProcessed = 10;
           final int _cursorIndexOfCreatedAt = 11;
+          final int _cursorIndexOfProvider = 12;
+          final int _cursorIndexOfBalance = 13;
+          final int _cursorIndexOfConfidence = 14;
+          final int _cursorIndexOfIsAutomatic = 15;
+          final int _cursorIndexOfNeedsReview = 16;
           final List<Transaction> _result = new ArrayList<Transaction>(_cursor.getCount());
           while (_cursor.moveToNext()) {
             final Transaction _item;
@@ -415,7 +443,25 @@ public final class TransactionDao_Impl implements TransactionDao {
               _tmp_2 = _cursor.getLong(_cursorIndexOfCreatedAt);
             }
             _tmpCreatedAt = __converters.fromTimestamp(_tmp_2);
-            _item = new Transaction(_tmpId,_tmpAmount,_tmpCurrency,_tmpTransactionType,_tmpSender,_tmpReceiver,_tmpTransactionId,_tmpSmsText,_tmpTimestamp,_tmpCategory,_tmpIsProcessed,_tmpCreatedAt);
+            final MobileMoneyProvider _tmpProvider;
+            _tmpProvider = __MobileMoneyProvider_stringToEnum(_cursor.getString(_cursorIndexOfProvider));
+            final Double _tmpBalance;
+            if (_cursor.isNull(_cursorIndexOfBalance)) {
+              _tmpBalance = null;
+            } else {
+              _tmpBalance = _cursor.getDouble(_cursorIndexOfBalance);
+            }
+            final float _tmpConfidence;
+            _tmpConfidence = _cursor.getFloat(_cursorIndexOfConfidence);
+            final boolean _tmpIsAutomatic;
+            final int _tmp_3;
+            _tmp_3 = _cursor.getInt(_cursorIndexOfIsAutomatic);
+            _tmpIsAutomatic = _tmp_3 != 0;
+            final boolean _tmpNeedsReview;
+            final int _tmp_4;
+            _tmp_4 = _cursor.getInt(_cursorIndexOfNeedsReview);
+            _tmpNeedsReview = _tmp_4 != 0;
+            _item = new Transaction(_tmpId,_tmpAmount,_tmpCurrency,_tmpTransactionType,_tmpSender,_tmpReceiver,_tmpTransactionId,_tmpSmsText,_tmpTimestamp,_tmpCategory,_tmpIsProcessed,_tmpCreatedAt,_tmpProvider,_tmpBalance,_tmpConfidence,_tmpIsAutomatic,_tmpNeedsReview);
             _result.add(_item);
           }
           return _result;
@@ -455,6 +501,11 @@ public final class TransactionDao_Impl implements TransactionDao {
           final int _cursorIndexOfCategory = CursorUtil.getColumnIndexOrThrow(_cursor, "category");
           final int _cursorIndexOfIsProcessed = CursorUtil.getColumnIndexOrThrow(_cursor, "isProcessed");
           final int _cursorIndexOfCreatedAt = CursorUtil.getColumnIndexOrThrow(_cursor, "createdAt");
+          final int _cursorIndexOfProvider = CursorUtil.getColumnIndexOrThrow(_cursor, "provider");
+          final int _cursorIndexOfBalance = CursorUtil.getColumnIndexOrThrow(_cursor, "balance");
+          final int _cursorIndexOfConfidence = CursorUtil.getColumnIndexOrThrow(_cursor, "confidence");
+          final int _cursorIndexOfIsAutomatic = CursorUtil.getColumnIndexOrThrow(_cursor, "isAutomatic");
+          final int _cursorIndexOfNeedsReview = CursorUtil.getColumnIndexOrThrow(_cursor, "needsReview");
           final List<Transaction> _result = new ArrayList<Transaction>(_cursor.getCount());
           while (_cursor.moveToNext()) {
             final Transaction _item;
@@ -520,7 +571,25 @@ public final class TransactionDao_Impl implements TransactionDao {
               _tmp_2 = _cursor.getLong(_cursorIndexOfCreatedAt);
             }
             _tmpCreatedAt = __converters.fromTimestamp(_tmp_2);
-            _item = new Transaction(_tmpId,_tmpAmount,_tmpCurrency,_tmpTransactionType,_tmpSender,_tmpReceiver,_tmpTransactionId,_tmpSmsText,_tmpTimestamp,_tmpCategory,_tmpIsProcessed,_tmpCreatedAt);
+            final MobileMoneyProvider _tmpProvider;
+            _tmpProvider = __MobileMoneyProvider_stringToEnum(_cursor.getString(_cursorIndexOfProvider));
+            final Double _tmpBalance;
+            if (_cursor.isNull(_cursorIndexOfBalance)) {
+              _tmpBalance = null;
+            } else {
+              _tmpBalance = _cursor.getDouble(_cursorIndexOfBalance);
+            }
+            final float _tmpConfidence;
+            _tmpConfidence = _cursor.getFloat(_cursorIndexOfConfidence);
+            final boolean _tmpIsAutomatic;
+            final int _tmp_3;
+            _tmp_3 = _cursor.getInt(_cursorIndexOfIsAutomatic);
+            _tmpIsAutomatic = _tmp_3 != 0;
+            final boolean _tmpNeedsReview;
+            final int _tmp_4;
+            _tmp_4 = _cursor.getInt(_cursorIndexOfNeedsReview);
+            _tmpNeedsReview = _tmp_4 != 0;
+            _item = new Transaction(_tmpId,_tmpAmount,_tmpCurrency,_tmpTransactionType,_tmpSender,_tmpReceiver,_tmpTransactionId,_tmpSmsText,_tmpTimestamp,_tmpCategory,_tmpIsProcessed,_tmpCreatedAt,_tmpProvider,_tmpBalance,_tmpConfidence,_tmpIsAutomatic,_tmpNeedsReview);
             _result.add(_item);
           }
           return _result;
@@ -599,6 +668,11 @@ public final class TransactionDao_Impl implements TransactionDao {
           final int _cursorIndexOfCategory = CursorUtil.getColumnIndexOrThrow(_cursor, "category");
           final int _cursorIndexOfIsProcessed = CursorUtil.getColumnIndexOrThrow(_cursor, "isProcessed");
           final int _cursorIndexOfCreatedAt = CursorUtil.getColumnIndexOrThrow(_cursor, "createdAt");
+          final int _cursorIndexOfProvider = CursorUtil.getColumnIndexOrThrow(_cursor, "provider");
+          final int _cursorIndexOfBalance = CursorUtil.getColumnIndexOrThrow(_cursor, "balance");
+          final int _cursorIndexOfConfidence = CursorUtil.getColumnIndexOrThrow(_cursor, "confidence");
+          final int _cursorIndexOfIsAutomatic = CursorUtil.getColumnIndexOrThrow(_cursor, "isAutomatic");
+          final int _cursorIndexOfNeedsReview = CursorUtil.getColumnIndexOrThrow(_cursor, "needsReview");
           final List<Transaction> _result = new ArrayList<Transaction>(_cursor.getCount());
           while (_cursor.moveToNext()) {
             final Transaction _item;
@@ -664,7 +738,25 @@ public final class TransactionDao_Impl implements TransactionDao {
               _tmp_2 = _cursor.getLong(_cursorIndexOfCreatedAt);
             }
             _tmpCreatedAt = __converters.fromTimestamp(_tmp_2);
-            _item = new Transaction(_tmpId,_tmpAmount,_tmpCurrency,_tmpTransactionType,_tmpSender,_tmpReceiver,_tmpTransactionId,_tmpSmsText,_tmpTimestamp,_tmpCategory,_tmpIsProcessed,_tmpCreatedAt);
+            final MobileMoneyProvider _tmpProvider;
+            _tmpProvider = __MobileMoneyProvider_stringToEnum(_cursor.getString(_cursorIndexOfProvider));
+            final Double _tmpBalance;
+            if (_cursor.isNull(_cursorIndexOfBalance)) {
+              _tmpBalance = null;
+            } else {
+              _tmpBalance = _cursor.getDouble(_cursorIndexOfBalance);
+            }
+            final float _tmpConfidence;
+            _tmpConfidence = _cursor.getFloat(_cursorIndexOfConfidence);
+            final boolean _tmpIsAutomatic;
+            final int _tmp_3;
+            _tmp_3 = _cursor.getInt(_cursorIndexOfIsAutomatic);
+            _tmpIsAutomatic = _tmp_3 != 0;
+            final boolean _tmpNeedsReview;
+            final int _tmp_4;
+            _tmp_4 = _cursor.getInt(_cursorIndexOfNeedsReview);
+            _tmpNeedsReview = _tmp_4 != 0;
+            _item = new Transaction(_tmpId,_tmpAmount,_tmpCurrency,_tmpTransactionType,_tmpSender,_tmpReceiver,_tmpTransactionId,_tmpSmsText,_tmpTimestamp,_tmpCategory,_tmpIsProcessed,_tmpCreatedAt,_tmpProvider,_tmpBalance,_tmpConfidence,_tmpIsAutomatic,_tmpNeedsReview);
             _result.add(_item);
           }
           return _result;
@@ -683,7 +775,7 @@ public final class TransactionDao_Impl implements TransactionDao {
   @Override
   public Object getUnprocessedTransactions(
       final Continuation<? super List<Transaction>> $completion) {
-    final String _sql = "SELECT `transactions`.`id` AS `id`, `transactions`.`amount` AS `amount`, `transactions`.`currency` AS `currency`, `transactions`.`transactionType` AS `transactionType`, `transactions`.`sender` AS `sender`, `transactions`.`receiver` AS `receiver`, `transactions`.`transactionId` AS `transactionId`, `transactions`.`smsText` AS `smsText`, `transactions`.`timestamp` AS `timestamp`, `transactions`.`category` AS `category`, `transactions`.`isProcessed` AS `isProcessed`, `transactions`.`createdAt` AS `createdAt` FROM transactions WHERE isProcessed = 0";
+    final String _sql = "SELECT `transactions`.`id` AS `id`, `transactions`.`amount` AS `amount`, `transactions`.`currency` AS `currency`, `transactions`.`transactionType` AS `transactionType`, `transactions`.`sender` AS `sender`, `transactions`.`receiver` AS `receiver`, `transactions`.`transactionId` AS `transactionId`, `transactions`.`smsText` AS `smsText`, `transactions`.`timestamp` AS `timestamp`, `transactions`.`category` AS `category`, `transactions`.`isProcessed` AS `isProcessed`, `transactions`.`createdAt` AS `createdAt`, `transactions`.`provider` AS `provider`, `transactions`.`balance` AS `balance`, `transactions`.`confidence` AS `confidence`, `transactions`.`isAutomatic` AS `isAutomatic`, `transactions`.`needsReview` AS `needsReview` FROM transactions WHERE isProcessed = 0";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
     return CoroutinesRoom.execute(__db, false, _cancellationSignal, new Callable<List<Transaction>>() {
@@ -704,6 +796,11 @@ public final class TransactionDao_Impl implements TransactionDao {
           final int _cursorIndexOfCategory = 9;
           final int _cursorIndexOfIsProcessed = 10;
           final int _cursorIndexOfCreatedAt = 11;
+          final int _cursorIndexOfProvider = 12;
+          final int _cursorIndexOfBalance = 13;
+          final int _cursorIndexOfConfidence = 14;
+          final int _cursorIndexOfIsAutomatic = 15;
+          final int _cursorIndexOfNeedsReview = 16;
           final List<Transaction> _result = new ArrayList<Transaction>(_cursor.getCount());
           while (_cursor.moveToNext()) {
             final Transaction _item;
@@ -769,7 +866,25 @@ public final class TransactionDao_Impl implements TransactionDao {
               _tmp_2 = _cursor.getLong(_cursorIndexOfCreatedAt);
             }
             _tmpCreatedAt = __converters.fromTimestamp(_tmp_2);
-            _item = new Transaction(_tmpId,_tmpAmount,_tmpCurrency,_tmpTransactionType,_tmpSender,_tmpReceiver,_tmpTransactionId,_tmpSmsText,_tmpTimestamp,_tmpCategory,_tmpIsProcessed,_tmpCreatedAt);
+            final MobileMoneyProvider _tmpProvider;
+            _tmpProvider = __MobileMoneyProvider_stringToEnum(_cursor.getString(_cursorIndexOfProvider));
+            final Double _tmpBalance;
+            if (_cursor.isNull(_cursorIndexOfBalance)) {
+              _tmpBalance = null;
+            } else {
+              _tmpBalance = _cursor.getDouble(_cursorIndexOfBalance);
+            }
+            final float _tmpConfidence;
+            _tmpConfidence = _cursor.getFloat(_cursorIndexOfConfidence);
+            final boolean _tmpIsAutomatic;
+            final int _tmp_3;
+            _tmp_3 = _cursor.getInt(_cursorIndexOfIsAutomatic);
+            _tmpIsAutomatic = _tmp_3 != 0;
+            final boolean _tmpNeedsReview;
+            final int _tmp_4;
+            _tmp_4 = _cursor.getInt(_cursorIndexOfNeedsReview);
+            _tmpNeedsReview = _tmp_4 != 0;
+            _item = new Transaction(_tmpId,_tmpAmount,_tmpCurrency,_tmpTransactionType,_tmpSender,_tmpReceiver,_tmpTransactionId,_tmpSmsText,_tmpTimestamp,_tmpCategory,_tmpIsProcessed,_tmpCreatedAt,_tmpProvider,_tmpBalance,_tmpConfidence,_tmpIsAutomatic,_tmpNeedsReview);
             _result.add(_item);
           }
           return _result;
@@ -788,8 +903,19 @@ public final class TransactionDao_Impl implements TransactionDao {
 
   private String __TransactionType_enumToString(@NonNull final TransactionType _value) {
     switch (_value) {
-      case CREDIT: return "CREDIT";
       case DEBIT: return "DEBIT";
+      case CREDIT: return "CREDIT";
+      case UNKNOWN: return "UNKNOWN";
+      default: throw new IllegalArgumentException("Can't convert enum to string, unknown enum value: " + _value);
+    }
+  }
+
+  private String __MobileMoneyProvider_enumToString(@NonNull final MobileMoneyProvider _value) {
+    switch (_value) {
+      case MTN: return "MTN";
+      case VODAFONE: return "VODAFONE";
+      case TIGO: return "TIGO";
+      case AIRTEL: return "AIRTEL";
       case UNKNOWN: return "UNKNOWN";
       default: throw new IllegalArgumentException("Can't convert enum to string, unknown enum value: " + _value);
     }
@@ -797,9 +923,20 @@ public final class TransactionDao_Impl implements TransactionDao {
 
   private TransactionType __TransactionType_stringToEnum(@NonNull final String _value) {
     switch (_value) {
-      case "CREDIT": return TransactionType.CREDIT;
       case "DEBIT": return TransactionType.DEBIT;
+      case "CREDIT": return TransactionType.CREDIT;
       case "UNKNOWN": return TransactionType.UNKNOWN;
+      default: throw new IllegalArgumentException("Can't convert value to enum, unknown value: " + _value);
+    }
+  }
+
+  private MobileMoneyProvider __MobileMoneyProvider_stringToEnum(@NonNull final String _value) {
+    switch (_value) {
+      case "MTN": return MobileMoneyProvider.MTN;
+      case "VODAFONE": return MobileMoneyProvider.VODAFONE;
+      case "TIGO": return MobileMoneyProvider.TIGO;
+      case "AIRTEL": return MobileMoneyProvider.AIRTEL;
+      case "UNKNOWN": return MobileMoneyProvider.UNKNOWN;
       default: throw new IllegalArgumentException("Can't convert value to enum, unknown value: " + _value);
     }
   }

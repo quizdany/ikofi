@@ -47,7 +47,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="58"
+            line="59"
             column="20"/>
     </issue>
 
@@ -63,7 +63,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="59"
+            line="60"
             column="20"/>
     </issue>
 
@@ -79,7 +79,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="60"
+            line="61"
             column="20"/>
     </issue>
 
@@ -95,7 +95,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="63"
+            line="64"
             column="20"/>
     </issue>
 
@@ -111,7 +111,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="64"
+            line="65"
             column="20"/>
     </issue>
 
@@ -127,7 +127,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="65"
+            line="66"
             column="20"/>
     </issue>
 
@@ -143,7 +143,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="66"
+            line="67"
             column="20"/>
     </issue>
 
@@ -159,7 +159,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="67"
+            line="68"
             column="20"/>
     </issue>
 
@@ -175,7 +175,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="70"
+            line="71"
             column="20"/>
     </issue>
 
@@ -191,7 +191,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="73"
+            line="74"
             column="20"/>
     </issue>
 
@@ -207,7 +207,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="74"
+            line="75"
             column="20"/>
     </issue>
 
@@ -223,7 +223,7 @@
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="75"
+            line="76"
             column="10"/>
     </issue>
 
@@ -239,7 +239,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="81"
+            line="82"
             column="20"/>
     </issue>
 
@@ -255,7 +255,103 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="82"
+            line="83"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.compose.ui:ui-graphics than 1.5.4 is available: 1.8.3"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.compose.ui:ui-graphics:1.5.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="91"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.compose.animation:animation than 1.5.4 is available: 1.8.3"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.compose.animation:animation:1.5.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="94"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.compose.animation:animation-graphics than 1.5.4 is available: 1.8.3"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.compose.animation:animation-graphics:1.5.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="95"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.google.mlkit:text-recognition than 16.0.0 is available: 16.0.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;com.google.mlkit:text-recognition:16.0.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="98"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.work:work-runtime-ktx than 2.9.0 is available: 2.10.2"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.work:work-runtime-ktx:2.9.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="107"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of androidx.datastore:datastore-preferences than 1.0.0 is available: 1.1.7"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    implementation &apos;androidx.datastore:datastore-preferences:1.0.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="110"
             column="20"/>
     </issue>
 
@@ -271,7 +367,7 @@
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="86"
+            line="114"
             column="31"/>
     </issue>
 
@@ -287,7 +383,7 @@
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="87"
+            line="115"
             column="31"/>
     </issue>
 
@@ -303,7 +399,7 @@
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="88"
+            line="116"
             column="31"/>
     </issue>
 
@@ -319,7 +415,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="89"
+            line="117"
             column="25"/>
     </issue>
 
@@ -335,7 +431,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="90"
+            line="118"
             column="25"/>
     </issue>
 
@@ -351,7 +447,23 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="92"
+            line="120"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        severity="Warning"
+        message="A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.13.1"
+        category="Correctness"
+        priority="4"
+        summary="Newer Library Versions Available"
+        explanation="This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the `GradleDependency` check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also **much** slower."
+        errorLine1="    implementation &apos;com.google.code.gson:gson:2.10.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="57"
             column="20"/>
     </issue>
 
@@ -367,7 +479,39 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="78"
+            line="79"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        severity="Warning"
+        message="A newer version of com.airbnb.android:lottie-compose than 6.2.0 is available: 6.6.7"
+        category="Correctness"
+        priority="4"
+        summary="Newer Library Versions Available"
+        explanation="This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the `GradleDependency` check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also **much** slower."
+        errorLine1="    implementation &apos;com.airbnb.android:lottie-compose:6.2.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="87"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        severity="Warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.3 is available: 1.10.2"
+        category="Correctness"
+        priority="4"
+        summary="Newer Library Versions Available"
+        explanation="This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the `GradleDependency` check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also **much** slower."
+        errorLine1="    implementation &apos;org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
+            line="104"
             column="20"/>
     </issue>
 
@@ -383,7 +527,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="95"
+            line="123"
             column="20"/>
     </issue>
 
@@ -399,8 +543,50 @@
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="96"
+            line="124"
             column="10"/>
+    </issue>
+
+    <issue
+        id="Aligned16KB"
+        severity="Warning"
+        message="The native library `arm64-v8a/libmlkit_google_ocr_pipeline.so` (from `com.google.mlkit:text-recognition-bundled-common:16.0.0`) is not 16 KB aligned"
+        category="Correctness"
+        priority="2"
+        summary="Native library dependency not 16 KB aligned"
+        explanation="Android has traditionally used 4 KB memory page sizes. However, to support future devices that only work with 16 KB aligned libraries apps containing native libraries need to be built with 16 KB alignment.&#xA;&#xA;Apps with 4 KB aligned native libraries may not work correctly on devices requiring 16 KB alignment. To ensure compatibility and future-proof your app, it is strongly recommended that your native libraries are aligned to 16 KB boundaries.&#xA;&#xA;If your app uses any NDK libraries, directly or indirectly through an SDK, you should rebuild your app to meet this recommendation. Make sure all native libraries within your application, including those from dependencies, are built with 16 KB page alignment.&#xA;&#xA;This lint check looks at all native libraries that your app depends on. If any are found to be aligned to 4 KB instead of 16 KB, you will need to address this.&#xA;&#xA;When a library is flagged, first try to update to a newer version that supports 16 KB alignment. If an updated version is not available, contact the library vendor to ask about their plans for 16 KB support and request a compatible version. Updating your libraries proactively will help ensure your app works properly on a wider range of devices."
+        url="https://developer.android.com/guide/practices/page-sizes"
+        urls="https://developer.android.com/guide/practices/page-sizes">
+        <location
+            file="C:\Users\quizd\.gradle\caches\8.13\transforms\99f548159a8e941a55afb1ddbdfc0544\transformed\text-recognition-bundled-common-16.0.0\jni\arm64-v8a\libmlkit_google_ocr_pipeline.so"/>
+    </issue>
+
+    <issue
+        id="Aligned16KB"
+        severity="Warning"
+        message="The native library `arm64-v8a/libmlkit_google_ocr_pipeline.so` (from `com.google.mlkit:text-recognition-bundled-common:16.0.0`) is not 16 KB aligned"
+        category="Correctness"
+        priority="2"
+        summary="Native library dependency not 16 KB aligned"
+        explanation="Android has traditionally used 4 KB memory page sizes. However, to support future devices that only work with 16 KB aligned libraries apps containing native libraries need to be built with 16 KB alignment.&#xA;&#xA;Apps with 4 KB aligned native libraries may not work correctly on devices requiring 16 KB alignment. To ensure compatibility and future-proof your app, it is strongly recommended that your native libraries are aligned to 16 KB boundaries.&#xA;&#xA;If your app uses any NDK libraries, directly or indirectly through an SDK, you should rebuild your app to meet this recommendation. Make sure all native libraries within your application, including those from dependencies, are built with 16 KB page alignment.&#xA;&#xA;This lint check looks at all native libraries that your app depends on. If any are found to be aligned to 4 KB instead of 16 KB, you will need to address this.&#xA;&#xA;When a library is flagged, first try to update to a newer version that supports 16 KB alignment. If an updated version is not available, contact the library vendor to ask about their plans for 16 KB support and request a compatible version. Updating your libraries proactively will help ensure your app works properly on a wider range of devices."
+        url="https://developer.android.com/guide/practices/page-sizes"
+        urls="https://developer.android.com/guide/practices/page-sizes">
+        <location
+            file="C:\Users\quizd\.gradle\caches\8.13\transforms\99f548159a8e941a55afb1ddbdfc0544\transformed\text-recognition-bundled-common-16.0.0\jni\arm64-v8a\libmlkit_google_ocr_pipeline.so"/>
+    </issue>
+
+    <issue
+        id="Aligned16KB"
+        severity="Warning"
+        message="The native library `arm64-v8a/libmlkit_google_ocr_pipeline.so` (from `com.google.mlkit:text-recognition-bundled-common:16.0.0`) is not 16 KB aligned"
+        category="Correctness"
+        priority="2"
+        summary="Native library dependency not 16 KB aligned"
+        explanation="Android has traditionally used 4 KB memory page sizes. However, to support future devices that only work with 16 KB aligned libraries apps containing native libraries need to be built with 16 KB alignment.&#xA;&#xA;Apps with 4 KB aligned native libraries may not work correctly on devices requiring 16 KB alignment. To ensure compatibility and future-proof your app, it is strongly recommended that your native libraries are aligned to 16 KB boundaries.&#xA;&#xA;If your app uses any NDK libraries, directly or indirectly through an SDK, you should rebuild your app to meet this recommendation. Make sure all native libraries within your application, including those from dependencies, are built with 16 KB page alignment.&#xA;&#xA;This lint check looks at all native libraries that your app depends on. If any are found to be aligned to 4 KB instead of 16 KB, you will need to address this.&#xA;&#xA;When a library is flagged, first try to update to a newer version that supports 16 KB alignment. If an updated version is not available, contact the library vendor to ask about their plans for 16 KB support and request a compatible version. Updating your libraries proactively will help ensure your app works properly on a wider range of devices."
+        url="https://developer.android.com/guide/practices/page-sizes"
+        urls="https://developer.android.com/guide/practices/page-sizes">
+        <location
+            file="C:\Users\quizd\.gradle\caches\8.13\transforms\99f548159a8e941a55afb1ddbdfc0544\transformed\text-recognition-bundled-common-16.0.0\jni\arm64-v8a\libmlkit_google_ocr_pipeline.so"/>
     </issue>
 
     <issue
@@ -417,7 +603,7 @@
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle"
-            line="75"
+            line="76"
             column="5"/>
     </issue>
 

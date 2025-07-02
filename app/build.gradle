@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "com.yourname.budgetai"
-        minSdk 24
+        minSdk 26
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -54,6 +54,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.google.code.gson:gson:2.10.1'
     // Core Android
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
@@ -80,6 +81,33 @@ dependencies {
     // ViewModel & LiveData
     implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2'
     implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.6.2'
+    
+    // Charts and animations
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.airbnb.android:lottie-compose:6.2.0'
+    implementation 'co.yml:ycharts:2.1.0'
+    
+    // Glassmorphism and blur effects
+    implementation 'androidx.compose.ui:ui-graphics:1.5.4'
+    
+    // Enhanced animation support
+    implementation 'androidx.compose.animation:animation:1.5.4'
+    implementation 'androidx.compose.animation:animation-graphics:1.5.4'
+    
+    // ML Kit for text processing
+    implementation 'com.google.mlkit:text-recognition:16.0.0'
+    
+    // Date picker
+    implementation 'io.github.vanpra.compose-material-dialogs:datetime:0.9.0'
+    
+    // ML/AI for categorization
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
+    
+    // WorkManager for background tasks
+    implementation 'androidx.work:work-runtime-ktx:2.9.0'
+    
+    // Preferences/Settings
+    implementation 'androidx.datastore:datastore-preferences:1.0.0'
     
     // Testing
     testImplementation 'junit:junit:4.13.2'

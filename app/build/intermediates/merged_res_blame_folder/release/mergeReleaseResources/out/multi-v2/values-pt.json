@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.yourname.budgetai.app-mergeReleaseResources-63:/values-pt/values-pt.xml",
+            "outputFile": "com.yourname.budgetai.app-mergeReleaseResources-78:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "C:\\Users\\quizd\\.gradle\\caches\\8.13\\transforms\\818832b8520fc745ae91397edbb39d91\\transformed\\material3-release\\res\\values-pt\\values-pt.xml",

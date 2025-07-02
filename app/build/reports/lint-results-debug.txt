@@ -24,64 +24,82 @@ C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:15: Warning: Not targetin
 C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:10: Warning: A newer version of compileSdkVersion than 34 is available: 36 [GradleDependency]
     compileSdk 34
     ~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:58: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:59: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0 [GradleDependency]
     implementation 'androidx.core:core-ktx:1.12.0'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:59: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.6.2 is available: 2.9.1 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:60: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.6.2 is available: 2.9.1 [GradleDependency]
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:60: Warning: A newer version of androidx.activity:activity-compose than 1.8.2 is available: 1.10.1 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:61: Warning: A newer version of androidx.activity:activity-compose than 1.8.2 is available: 1.10.1 [GradleDependency]
     implementation 'androidx.activity:activity-compose:1.8.2'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:63: Warning: A newer version of androidx.compose.ui:ui than 1.5.4 is available: 1.8.3 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:64: Warning: A newer version of androidx.compose.ui:ui than 1.5.4 is available: 1.8.3 [GradleDependency]
     implementation 'androidx.compose.ui:ui:1.5.4'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:64: Warning: A newer version of androidx.compose.ui:ui-graphics than 1.5.4 is available: 1.8.3 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:65: Warning: A newer version of androidx.compose.ui:ui-graphics than 1.5.4 is available: 1.8.3 [GradleDependency]
     implementation 'androidx.compose.ui:ui-graphics:1.5.4'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:65: Warning: A newer version of androidx.compose.ui:ui-tooling-preview than 1.5.4 is available: 1.8.3 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:66: Warning: A newer version of androidx.compose.ui:ui-tooling-preview than 1.5.4 is available: 1.8.3 [GradleDependency]
     implementation 'androidx.compose.ui:ui-tooling-preview:1.5.4'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:66: Warning: A newer version of androidx.compose.material3:material3 than 1.2.0 is available: 1.3.2 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:67: Warning: A newer version of androidx.compose.material3:material3 than 1.2.0 is available: 1.3.2 [GradleDependency]
     implementation 'androidx.compose.material3:material3:1.2.0'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:67: Warning: A newer version of androidx.compose.material:material-icons-extended than 1.5.4 is available: 1.7.8 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:68: Warning: A newer version of androidx.compose.material:material-icons-extended than 1.5.4 is available: 1.7.8 [GradleDependency]
     implementation 'androidx.compose.material:material-icons-extended:1.5.4'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:70: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.9.0 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:71: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.9.0 [GradleDependency]
     implementation 'androidx.navigation:navigation-compose:2.7.7'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:73: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:74: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2 [GradleDependency]
     implementation 'androidx.room:room-runtime:2.6.1'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:74: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.2 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:75: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.2 [GradleDependency]
     implementation 'androidx.room:room-ktx:2.6.1'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:75: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:76: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2 [GradleDependency]
     kapt 'androidx.room:room-compiler:2.6.1'
          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:81: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.6.2 is available: 2.9.1 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:82: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.6.2 is available: 2.9.1 [GradleDependency]
     implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:82: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.6.2 is available: 2.9.1 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:83: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.6.2 is available: 2.9.1 [GradleDependency]
     implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.6.2'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:86: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:91: Warning: A newer version of androidx.compose.ui:ui-graphics than 1.5.4 is available: 1.8.3 [GradleDependency]
+    implementation 'androidx.compose.ui:ui-graphics:1.5.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:94: Warning: A newer version of androidx.compose.animation:animation than 1.5.4 is available: 1.8.3 [GradleDependency]
+    implementation 'androidx.compose.animation:animation:1.5.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:95: Warning: A newer version of androidx.compose.animation:animation-graphics than 1.5.4 is available: 1.8.3 [GradleDependency]
+    implementation 'androidx.compose.animation:animation-graphics:1.5.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:98: Warning: A newer version of com.google.mlkit:text-recognition than 16.0.0 is available: 16.0.1 [GradleDependency]
+    implementation 'com.google.mlkit:text-recognition:16.0.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:107: Warning: A newer version of androidx.work:work-runtime-ktx than 2.9.0 is available: 2.10.2 [GradleDependency]
+    implementation 'androidx.work:work-runtime-ktx:2.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:110: Warning: A newer version of androidx.datastore:datastore-preferences than 1.0.0 is available: 1.1.7 [GradleDependency]
+    implementation 'androidx.datastore:datastore-preferences:1.0.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:114: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:87: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:115: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:88: Warning: A newer version of androidx.compose.ui:ui-test-junit4 than 1.5.4 is available: 1.8.3 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:116: Warning: A newer version of androidx.compose.ui:ui-test-junit4 than 1.5.4 is available: 1.8.3 [GradleDependency]
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4:1.5.4'
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:89: Warning: A newer version of androidx.compose.ui:ui-tooling than 1.5.4 is available: 1.8.3 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:117: Warning: A newer version of androidx.compose.ui:ui-tooling than 1.5.4 is available: 1.8.3 [GradleDependency]
     debugImplementation 'androidx.compose.ui:ui-tooling:1.5.4'
                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:90: Warning: A newer version of androidx.compose.ui:ui-test-manifest than 1.5.4 is available: 1.8.3 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:118: Warning: A newer version of androidx.compose.ui:ui-test-manifest than 1.5.4 is available: 1.8.3 [GradleDependency]
     debugImplementation 'androidx.compose.ui:ui-test-manifest:1.5.4'
                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:92: Warning: A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0 [GradleDependency]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:120: Warning: A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0 [GradleDependency]
     implementation 'com.google.android.material:material:1.11.0'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -92,13 +110,22 @@ C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:92: Warning: A newer vers
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:78: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.3 is available: 1.10.2 [NewerVersionAvailable]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:57: Warning: A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.13.1 [NewerVersionAvailable]
+    implementation 'com.google.code.gson:gson:2.10.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:79: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.3 is available: 1.10.2 [NewerVersionAvailable]
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:95: Warning: A newer version of com.google.dagger:hilt-android than 2.48.1 is available: 2.56.2 [NewerVersionAvailable]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:87: Warning: A newer version of com.airbnb.android:lottie-compose than 6.2.0 is available: 6.6.7 [NewerVersionAvailable]
+    implementation 'com.airbnb.android:lottie-compose:6.2.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:104: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.3 is available: 1.10.2 [NewerVersionAvailable]
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:123: Warning: A newer version of com.google.dagger:hilt-android than 2.48.1 is available: 2.56.2 [NewerVersionAvailable]
     implementation 'com.google.dagger:hilt-android:2.48.1'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:96: Warning: A newer version of com.google.dagger:hilt-android-compiler than 2.48.1 is available: 2.56.2 [NewerVersionAvailable]
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:124: Warning: A newer version of com.google.dagger:hilt-android-compiler than 2.48.1 is available: 2.56.2 [NewerVersionAvailable]
     kapt 'com.google.dagger:hilt-android-compiler:2.48.1'
          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -110,7 +137,38 @@ C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:96: Warning: A newer vers
    MavenCentral dependency, and connects to the library every time, which
    makes it more flexible but also much slower.
 
-C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:75: Warning: This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp [KaptUsageInsteadOfKsp]
+C:\Users\quizd\.gradle\caches\8.13\transforms\99f548159a8e941a55afb1ddbdfc0544\transformed\text-recognition-bundled-common-16.0.0\jni\arm64-v8a\libmlkit_google_ocr_pipeline.so: Warning: The native library arm64-v8a/libmlkit_google_ocr_pipeline.so (from com.google.mlkit:text-recognition-bundled-common:16.0.0) is not 16 KB aligned [Aligned16KB]
+C:\Users\quizd\.gradle\caches\8.13\transforms\99f548159a8e941a55afb1ddbdfc0544\transformed\text-recognition-bundled-common-16.0.0\jni\arm64-v8a\libmlkit_google_ocr_pipeline.so: Warning: The native library arm64-v8a/libmlkit_google_ocr_pipeline.so (from com.google.mlkit:text-recognition-bundled-common:16.0.0) is not 16 KB aligned [Aligned16KB]
+C:\Users\quizd\.gradle\caches\8.13\transforms\99f548159a8e941a55afb1ddbdfc0544\transformed\text-recognition-bundled-common-16.0.0\jni\arm64-v8a\libmlkit_google_ocr_pipeline.so: Warning: The native library arm64-v8a/libmlkit_google_ocr_pipeline.so (from com.google.mlkit:text-recognition-bundled-common:16.0.0) is not 16 KB aligned [Aligned16KB]
+
+   Explanation for issues of type "Aligned16KB":
+   Android has traditionally used 4 KB memory page sizes. However, to support
+   future devices that only work with 16 KB aligned libraries apps containing
+   native libraries need to be built with 16 KB alignment.
+
+   Apps with 4 KB aligned native libraries may not work correctly on devices
+   requiring 16 KB alignment. To ensure compatibility and future-proof your
+   app, it is strongly recommended that your native libraries are aligned to
+   16 KB boundaries.
+
+   If your app uses any NDK libraries, directly or indirectly through an SDK,
+   you should rebuild your app to meet this recommendation. Make sure all
+   native libraries within your application, including those from
+   dependencies, are built with 16 KB page alignment.
+
+   This lint check looks at all native libraries that your app depends on. If
+   any are found to be aligned to 4 KB instead of 16 KB, you will need to
+   address this.
+
+   When a library is flagged, first try to update to a newer version that
+   supports 16 KB alignment. If an updated version is not available, contact
+   the library vendor to ask about their plans for 16 KB support and request a
+   compatible version. Updating your libraries proactively will help ensure
+   your app works properly on a wider range of devices.
+
+   https://developer.android.com/guide/practices/page-sizes
+
+C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:76: Warning: This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp [KaptUsageInsteadOfKsp]
     kapt 'androidx.room:room-compiler:2.6.1'
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -120,4 +178,4 @@ C:\Users\quizd\OneDrive\Desktop\ikofi\app\build.gradle:75: Warning: This library
 
    https://developer.android.com/studio/build/migrate-to-ksp
 
-0 errors, 26 warnings
+0 errors, 38 warnings

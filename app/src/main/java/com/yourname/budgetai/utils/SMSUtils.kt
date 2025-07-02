@@ -32,7 +32,7 @@ object SMSUtils {
     fun isMobileMoneySMS(smsText: String): Boolean {
         val mobileMoneyKeywords = listOf(
             "MTN", "Airtel", "Mobile Money", "MoMo",
-            "received", "sent", "balance", "GHS"
+            "received", "sent", "balance", "GHS", "rwf"
         )
         
         return mobileMoneyKeywords.any { keyword ->

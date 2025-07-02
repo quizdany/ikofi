@@ -287,6 +287,197 @@ HSPLandroidx/navigation/R$styleable;-><clinit>()V
 Landroidx/navigation/R$id;
 Landroidx/navigation/R$styleable;
 
+HSPLcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt$animateLottieCompositionAsState$3;-><init>(ZZLcom/airbnb/lottie/compose/LottieAnimatable;Lcom/airbnb/lottie/LottieComposition;IFLcom/airbnb/lottie/compose/LottieClipSpec;Lcom/airbnb/lottie/compose/LottieCancellationBehavior;Landroidx/compose/runtime/MutableState;Lkotlin/coroutines/Continuation;)V
+HSPLcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt$animateLottieCompositionAsState$3;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+HSPLcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt$animateLottieCompositionAsState$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt;->access$animateLottieCompositionAsState$lambda-3(Landroidx/compose/runtime/MutableState;)Z
+HSPLcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt;->access$animateLottieCompositionAsState$lambda-4(Landroidx/compose/runtime/MutableState;Z)V
+HSPLcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt;->animateLottieCompositionAsState$lambda-3(Landroidx/compose/runtime/MutableState;)Z
+HSPLcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt;->animateLottieCompositionAsState$lambda-4(Landroidx/compose/runtime/MutableState;Z)V
+HSPLcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt;->animateLottieCompositionAsState(Lcom/airbnb/lottie/LottieComposition;ZZLcom/airbnb/lottie/compose/LottieClipSpec;FILcom/airbnb/lottie/compose/LottieCancellationBehavior;ZLandroidx/compose/runtime/Composer;II)Lcom/airbnb/lottie/compose/LottieAnimationState;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$1$WhenMappings;-><clinit>()V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$1;-><init>(Lcom/airbnb/lottie/compose/LottieCancellationBehavior;Lkotlinx/coroutines/Job;IILcom/airbnb/lottie/compose/LottieAnimatableImpl;Lkotlin/coroutines/Continuation;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$1;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$1;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$WhenMappings;-><clinit>()V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2;-><init>(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;IIFLcom/airbnb/lottie/compose/LottieClipSpec;Lcom/airbnb/lottie/LottieComposition;FZLcom/airbnb/lottie/compose/LottieCancellationBehavior;Lkotlin/coroutines/Continuation;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2;->create(Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2;->invoke(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$doFrame$2;-><init>(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;I)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$doFrame$2;->invoke(J)Ljava/lang/Boolean;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$doFrame$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$endProgress$2;-><init>(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$endProgress$2;->invoke()Ljava/lang/Float;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$endProgress$2;->invoke()Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$isAtEnd$2;-><init>(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$isAtEnd$2;->invoke()Ljava/lang/Boolean;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$isAtEnd$2;->invoke()Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$snapTo$2;-><init>(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;Lcom/airbnb/lottie/LottieComposition;FIZLkotlin/coroutines/Continuation;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$snapTo$2;->create(Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$snapTo$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$snapTo$2;->invoke(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl$snapTo$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;-><init>()V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$doFrame(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$getEndProgress(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;)F
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$setClipSpec(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;Lcom/airbnb/lottie/compose/LottieClipSpec;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$setComposition(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;Lcom/airbnb/lottie/LottieComposition;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$setIteration(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;I)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$setIterations(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;I)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$setLastFrameNanos(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;J)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$setPlaying(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;Z)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$setProgress(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;F)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->access$setSpeed(Lcom/airbnb/lottie/compose/LottieAnimatableImpl;F)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->animate(Lcom/airbnb/lottie/LottieComposition;IIFLcom/airbnb/lottie/compose/LottieClipSpec;FZLcom/airbnb/lottie/compose/LottieCancellationBehavior;ZLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->doFrame(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getClipSpec()Lcom/airbnb/lottie/compose/LottieClipSpec;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getComposition()Lcom/airbnb/lottie/LottieComposition;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getEndProgress()F
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getIteration()I
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getIterations()I
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getLastFrameNanos()J
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getProgress()F
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getSpeed()F
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getValue()Ljava/lang/Float;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->getValue()Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->isAtEnd()Z
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->isPlaying()Z
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->setClipSpec(Lcom/airbnb/lottie/compose/LottieClipSpec;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->setComposition(Lcom/airbnb/lottie/LottieComposition;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->setIteration(I)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->setIterations(I)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->setLastFrameNanos(J)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->setPlaying(Z)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->setProgress(F)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->setSpeed(F)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatableImpl;->snapTo(Lcom/airbnb/lottie/LottieComposition;FIZLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableKt;->LottieAnimatable()Lcom/airbnb/lottie/compose/LottieAnimatable;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableKt;->defaultProgress(Lcom/airbnb/lottie/LottieComposition;Lcom/airbnb/lottie/compose/LottieClipSpec;F)F
+HSPLcom/airbnb/lottie/compose/LottieAnimatableKt;->rememberLottieAnimatable(Landroidx/compose/runtime/Composer;I)Lcom/airbnb/lottie/compose/LottieAnimatable;
+HSPLcom/airbnb/lottie/compose/LottieAnimatableKt;->resetToBeginning(Lcom/airbnb/lottie/compose/LottieAnimatable;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt$LottieAnimation$2;-><init>(Lcom/airbnb/lottie/LottieComposition;Landroidx/compose/ui/layout/ContentScale;Landroidx/compose/ui/Alignment;Landroid/graphics/Matrix;Lcom/airbnb/lottie/LottieDrawable;ZLcom/airbnb/lottie/compose/LottieDynamicProperties;ZZZZZFLandroidx/compose/runtime/MutableState;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt$LottieAnimation$2;->invoke(Landroidx/compose/ui/graphics/drawscope/DrawScope;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt$LottieAnimation$2;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt$LottieAnimation$4;-><init>(Lcom/airbnb/lottie/LottieComposition;Landroidx/compose/ui/Modifier;ZZLcom/airbnb/lottie/compose/LottieClipSpec;FIZZZLcom/airbnb/lottie/RenderMode;ZLcom/airbnb/lottie/compose/LottieDynamicProperties;Landroidx/compose/ui/Alignment;Landroidx/compose/ui/layout/ContentScale;ZIII)V
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt$LottieAnimation$4;->invoke(Landroidx/compose/runtime/Composer;I)V
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt$LottieAnimation$4;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt;->LottieAnimation$lambda-3(Landroidx/compose/runtime/MutableState;)Lcom/airbnb/lottie/compose/LottieDynamicProperties;
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt;->LottieAnimation$lambda-6(Lcom/airbnb/lottie/compose/LottieAnimationState;)F
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt;->LottieAnimation(Lcom/airbnb/lottie/LottieComposition;FLandroidx/compose/ui/Modifier;ZZZLcom/airbnb/lottie/RenderMode;ZLcom/airbnb/lottie/compose/LottieDynamicProperties;Landroidx/compose/ui/Alignment;Landroidx/compose/ui/layout/ContentScale;ZLandroidx/compose/runtime/Composer;III)V
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt;->LottieAnimation(Lcom/airbnb/lottie/LottieComposition;Landroidx/compose/ui/Modifier;ZZLcom/airbnb/lottie/compose/LottieClipSpec;FIZZZLcom/airbnb/lottie/RenderMode;ZLcom/airbnb/lottie/compose/LottieDynamicProperties;Landroidx/compose/ui/Alignment;Landroidx/compose/ui/layout/ContentScale;ZLandroidx/compose/runtime/Composer;III)V
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt;->access$LottieAnimation$lambda-3(Landroidx/compose/runtime/MutableState;)Lcom/airbnb/lottie/compose/LottieDynamicProperties;
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt;->access$times-UQTWf7w(JJ)J
+HSPLcom/airbnb/lottie/compose/LottieAnimationKt;->times-UQTWf7w(JJ)J
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isComplete$2;-><init>(Lcom/airbnb/lottie/compose/LottieCompositionResultImpl;)V
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isComplete$2;->invoke()Ljava/lang/Boolean;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isComplete$2;->invoke()Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isFailure$2;-><init>(Lcom/airbnb/lottie/compose/LottieCompositionResultImpl;)V
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isFailure$2;->invoke()Ljava/lang/Boolean;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isFailure$2;->invoke()Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isLoading$2;-><init>(Lcom/airbnb/lottie/compose/LottieCompositionResultImpl;)V
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isLoading$2;->invoke()Ljava/lang/Boolean;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isLoading$2;->invoke()Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isSuccess$2;-><init>(Lcom/airbnb/lottie/compose/LottieCompositionResultImpl;)V
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isSuccess$2;->invoke()Ljava/lang/Boolean;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl$isSuccess$2;->invoke()Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;-><init>()V
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->complete$lottie_compose_release(Lcom/airbnb/lottie/LottieComposition;)V
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->getError()Ljava/lang/Throwable;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->getValue()Lcom/airbnb/lottie/LottieComposition;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->getValue()Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->isComplete()Z
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->isFailure()Z
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->isLoading()Z
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->isSuccess()Z
+HSPLcom/airbnb/lottie/compose/LottieCompositionResultImpl;->setValue(Lcom/airbnb/lottie/LottieComposition;)V
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$await$2$1;-><init>(Lkotlinx/coroutines/CancellableContinuation;)V
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$await$2$1;->onResult(Ljava/lang/Object;)V
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$await$2$2;-><init>(Lkotlinx/coroutines/CancellableContinuation;)V
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$lottieComposition$1;-><init>(Lkotlin/coroutines/Continuation;)V
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$lottieComposition$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$rememberLottieComposition$1;-><init>(Lkotlin/coroutines/Continuation;)V
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$rememberLottieComposition$3;-><init>(Lkotlin/jvm/functions/Function3;Landroid/content/Context;Lcom/airbnb/lottie/compose/LottieCompositionSpec;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/MutableState;Lkotlin/coroutines/Continuation;)V
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$rememberLottieComposition$3;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt$rememberLottieComposition$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->access$ensureLeadingPeriod(Ljava/lang/String;)Ljava/lang/String;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->access$ensureTrailingSlash(Ljava/lang/String;)Ljava/lang/String;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->access$lottieComposition(Landroid/content/Context;Lcom/airbnb/lottie/compose/LottieCompositionSpec;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->access$rememberLottieComposition$lambda-1(Landroidx/compose/runtime/MutableState;)Lcom/airbnb/lottie/compose/LottieCompositionResultImpl;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->await(Lcom/airbnb/lottie/LottieTask;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->ensureLeadingPeriod(Ljava/lang/String;)Ljava/lang/String;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->ensureTrailingSlash(Ljava/lang/String;)Ljava/lang/String;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->loadFontsFromAssets(Landroid/content/Context;Lcom/airbnb/lottie/LottieComposition;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->loadImagesFromAssets(Landroid/content/Context;Lcom/airbnb/lottie/LottieComposition;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->lottieComposition(Landroid/content/Context;Lcom/airbnb/lottie/compose/LottieCompositionSpec;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->lottieTask(Landroid/content/Context;Lcom/airbnb/lottie/compose/LottieCompositionSpec;Ljava/lang/String;Z)Lcom/airbnb/lottie/LottieTask;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->rememberLottieComposition$lambda-1(Landroidx/compose/runtime/MutableState;)Lcom/airbnb/lottie/compose/LottieCompositionResultImpl;
+HSPLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->rememberLottieComposition(Lcom/airbnb/lottie/compose/LottieCompositionSpec;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)Lcom/airbnb/lottie/compose/LottieCompositionResult;
+Lcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt$animateLottieCompositionAsState$3;
+Lcom/airbnb/lottie/compose/AnimateLottieCompositionAsStateKt;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$1$WhenMappings;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$1;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2$WhenMappings;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl$animate$2;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl$doFrame$2;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl$endProgress$2;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl$isAtEnd$2;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl$snapTo$2;
+Lcom/airbnb/lottie/compose/LottieAnimatableImpl;
+Lcom/airbnb/lottie/compose/LottieAnimatableKt;
+Lcom/airbnb/lottie/compose/LottieAnimationKt$LottieAnimation$2;
+Lcom/airbnb/lottie/compose/LottieAnimationKt$LottieAnimation$4;
+Lcom/airbnb/lottie/compose/LottieAnimationKt;
+Lcom/airbnb/lottie/compose/LottieCompositionResultImpl$isComplete$2;
+Lcom/airbnb/lottie/compose/LottieCompositionResultImpl$isFailure$2;
+Lcom/airbnb/lottie/compose/LottieCompositionResultImpl$isLoading$2;
+Lcom/airbnb/lottie/compose/LottieCompositionResultImpl$isSuccess$2;
+Lcom/airbnb/lottie/compose/LottieCompositionResultImpl;
+Lcom/airbnb/lottie/compose/RememberLottieCompositionKt$await$2$1;
+Lcom/airbnb/lottie/compose/RememberLottieCompositionKt$await$2$2;
+Lcom/airbnb/lottie/compose/RememberLottieCompositionKt$lottieComposition$1;
+Lcom/airbnb/lottie/compose/RememberLottieCompositionKt$rememberLottieComposition$1;
+Lcom/airbnb/lottie/compose/RememberLottieCompositionKt$rememberLottieComposition$3;
+Lcom/airbnb/lottie/compose/RememberLottieCompositionKt;
+PLcom/airbnb/lottie/compose/RememberLottieCompositionKt$loadImagesFromAssets$2;-><init>(Lcom/airbnb/lottie/LottieComposition;Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)V
+PLcom/airbnb/lottie/compose/RememberLottieCompositionKt$loadImagesFromAssets$2;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+PLcom/airbnb/lottie/compose/RememberLottieCompositionKt$loadImagesFromAssets$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+PLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->access$maybeDecodeBase64Image(Lcom/airbnb/lottie/LottieImageAsset;)V
+PLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->access$maybeLoadImageFromAsset(Landroid/content/Context;Lcom/airbnb/lottie/LottieImageAsset;Ljava/lang/String;)V
+PLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->maybeDecodeBase64Image(Lcom/airbnb/lottie/LottieImageAsset;)V
+PLcom/airbnb/lottie/compose/RememberLottieCompositionKt;->maybeLoadImageFromAsset(Landroid/content/Context;Lcom/airbnb/lottie/LottieImageAsset;Ljava/lang/String;)V
+HSPLcom/airbnb/lottie/compose/LottieAnimatable$DefaultImpls;->animate$default(Lcom/airbnb/lottie/compose/LottieAnimatable;Lcom/airbnb/lottie/LottieComposition;IIFLcom/airbnb/lottie/compose/LottieClipSpec;FZLcom/airbnb/lottie/compose/LottieCancellationBehavior;ZLkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieAnimatable$DefaultImpls;->snapTo$default(Lcom/airbnb/lottie/compose/LottieAnimatable;Lcom/airbnb/lottie/LottieComposition;FIZLkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+HSPLcom/airbnb/lottie/compose/LottieCancellationBehavior;->$values()[Lcom/airbnb/lottie/compose/LottieCancellationBehavior;
+HSPLcom/airbnb/lottie/compose/LottieCancellationBehavior;-><clinit>()V
+HSPLcom/airbnb/lottie/compose/LottieCancellationBehavior;-><init>(Ljava/lang/String;I)V
+HSPLcom/airbnb/lottie/compose/LottieCancellationBehavior;->values()[Lcom/airbnb/lottie/compose/LottieCancellationBehavior;
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$RawRes;-><init>(I)V
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$RawRes;->box-impl(I)Lcom/airbnb/lottie/compose/LottieCompositionSpec$RawRes;
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$RawRes;->constructor-impl(I)I
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$RawRes;->equals(Ljava/lang/Object;)Z
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$RawRes;->equals-impl(ILjava/lang/Object;)Z
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$RawRes;->unbox-impl()I
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$Url;-><init>(Ljava/lang/String;)V
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$Url;->box-impl(Ljava/lang/String;)Lcom/airbnb/lottie/compose/LottieCompositionSpec$Url;
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$Url;->constructor-impl(Ljava/lang/String;)Ljava/lang/String;
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$Url;->equals(Ljava/lang/Object;)Z
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$Url;->equals-impl(Ljava/lang/String;Ljava/lang/Object;)Z
+HSPLcom/airbnb/lottie/compose/LottieCompositionSpec$Url;->unbox-impl()Ljava/lang/String;
+Lcom/airbnb/lottie/compose/LottieAnimatable$DefaultImpls;
+Lcom/airbnb/lottie/compose/LottieAnimatable;
+Lcom/airbnb/lottie/compose/LottieAnimationState;
+Lcom/airbnb/lottie/compose/LottieCancellationBehavior;
+Lcom/airbnb/lottie/compose/LottieClipSpec;
+Lcom/airbnb/lottie/compose/LottieCompositionResult;
+Lcom/airbnb/lottie/compose/LottieCompositionSpec$RawRes;
+Lcom/airbnb/lottie/compose/LottieCompositionSpec$Url;
+Lcom/airbnb/lottie/compose/LottieCompositionSpec;
+Lcom/airbnb/lottie/compose/LottieDynamicProperties;
+
 # Baseline profile rules for androidx.compose.material3
 # =============================================
 
@@ -1498,6 +1689,284 @@ HSPLandroidx/compose/material/ripple/StateLayer;->**(**)**
 
 Landroidx/compose/material/ripple/*;
 
+# Baseline profile rules for androidx.compose.material
+# =============================================
+
+HSPLandroidx/compose/material/CardKt;->**(**)**
+HSPLandroidx/compose/material/Colors;->**(**)**
+HSPLandroidx/compose/material/ColorsKt**->**(**)**
+HSPLandroidx/compose/material/CheckDrawingCache;->**(**)**
+HSPLandroidx/compose/material/CheckboxDefaults;->**(**)**
+HSPLandroidx/compose/material/DefaultCheckboxColors;->**(**)**
+HSPLandroidx/compose/material/CheckboxKt**->**(**)**
+HSPLandroidx/compose/material/ButtonKt**->**(**)**
+HSPLandroidx/compose/material/AppBarKt**->**(**)**
+HSPLandroidx/compose/material/ProgressIndicatorKt;->**(**)**
+HSPLandroidx/compose/material/IconKt;->**(**)**
+HSPLandroidx/compose/material/ContentAlpha**->**(**)**
+HSPLandroidx/compose/material/ContentColorKt**->**(**)**
+HSPLandroidx/compose/material/ComposableSingletons$**->**(**)**
+HSPLandroidx/compose/material/DefaultElevationOverlay;->**(**)**
+HSPLandroidx/compose/material/ElevationOverlayKt**->**(**)**
+HSPLandroidx/compose/material/DrawerKt;->**(**)**
+HSPLandroidx/compose/material/DrawerState;->**(**)**
+HSPLandroidx/compose/material/FadeInFadeOutState;->**(**)**
+HSPLandroidx/compose/material/FabPosition;->**(**)**
+HSPLandroidx/compose/material/FloatingActionButtonKt**->**(**)**
+HSPLandroidx/compose/material/MaterialTheme;->**(**)**
+HSPLandroidx/compose/material/MinimumTouchTargetModifier;->**(**)**
+HSPLandroidx/compose/material/MaterialTextSelectionColorsKt;->**(**)**
+HSPLandroidx/compose/material/MaterialRippleTheme;->**(**)**
+HSPLandroidx/compose/material/ScaffoldKt**->**(**)**
+HSPLandroidx/compose/material/Shapes**->**(**)**
+HSPLandroidx/compose/material/SnackbarHostKt**->**(**)**
+HSPLandroidx/compose/material/SurfaceKt**->**(**)**
+HSPLandroidx/compose/material/SwipeableKt**->**(**)**
+HSPLandroidx/compose/material/SwipeableState**->**(**)**
+HSPLandroidx/compose/material/SwitchDefaults;->**(**)**
+HSPLandroidx/compose/material/TextKt**->**(**)**
+HSPLandroidx/compose/material/TouchTargetKt**->**(**)**
+HSPLandroidx/compose/material/Typography;->**(**)**
+
+# Prioritize only the top level classes for material. Notably, this ignores icons
+
+Landroidx/compose/material/*;
+
+# Baseline profile rules for androidx.compose.animation.core
+# =============================================
+# In practice it seems like almost every class in animation/core ends up getting loaded in even a
+# relatively small sample, and most end up getting marked as "HSP". Since Animation is a high value
+# target for performance - fade in, scroll, etc we are going to be liberal in the animation profile
+# rules and just mark the entire module.
+
+HSPLandroidx/compose/animation/core/**->**(**)**
+
+Landroidx/compose/animation/core/**;
+
+# Baseline profile rules for androidx.compose.animation
+# =============================================
+HSPLandroidx/compose/animation/AndroidFlingSpline**;->**(**)**
+HSPLandroidx/compose/animation/AnimatedVisibilityKt**->**(**)**
+HSPLandroidx/compose/animation/AnimatedVisibilityScope;-><init>(**)V
+HSPLandroidx/compose/animation/ChangeSize;->**(**)**
+HSPLandroidx/compose/animation/ColorVectorConverterKt**->**(**)**
+HSPLandroidx/compose/animation/CrossfadeAnimationItem;->**(**)**
+HSPLandroidx/compose/animation/CrossfadeKt**->**(**)**
+HSPLandroidx/compose/animation/EnterExitTransitionKt;->**(**)**
+HSPLandroidx/compose/animation/FlingCalculator**;->**(**)**
+HSPLandroidx/compose/animation/SingleValueAnimationKt;->**(**)**
+HSPLandroidx/compose/animation/SplineBasedFloatDecayAnimationSpec**->**(**)**
+HSPLandroidx/compose/animation/SplineBasedDecayKt;->**(**)**
+HSPLandroidx/compose/animation/TransitionData;->**(**)**
+
+# Include all of androidx.compose.animation
+Landroidx/compose/animation/*;
+# Baseline profile rules for androidx.compose.foundation.layout
+# =============================================
+# Layout is incredibly important for performance, and represents many hot code paths. For now, we
+# will include all of the layout namespace
+HSPLandroidx/compose/foundation/layout/**->**(**)**
+Landroidx/compose/foundation/layout/**;
+# Baseline profile rules for androidx.compose.ui.geometry
+# =============================================
+# All of geometry is highly used, small, and mathy, so we include everything
+HSPLandroidx/compose/ui/geometry/*;->**(**)**
+Landroidx/compose/ui/geometry/*;
+# Baseline profile rules for androidx.compose.ui.unit
+# =============================================
+# everything in unit is relatively small and in the hot path, so we just add everything
+HSPLandroidx/compose/ui/unit/**->**(**)**
+Landroidx/compose/ui/unit/**
+
+# Baseline profile rules for androidx.compose.ui.util
+# =============================================
+HSPLandroidx/compose/ui/util/MathHelpersKt;->lerp(FFF)F
+Landroidx/compose/ui/util/MathHelpersKt;
+
+# Baseline profile rules for androidx.compose.ui
+# =============================================
+#
+
+#
+# root level things
+HSPLandroidx/compose/ui/Alignment**->**(**)**
+HSPLandroidx/compose/ui/BiasAlignment**->**(**)**
+HSPLandroidx/compose/ui/Modifier**->**(**)**
+HSPLandroidx/compose/ui/CombinedModifier**->**(**)**
+HSPLandroidx/compose/ui/ComposedModifier**->**(**)**
+HSPLandroidx/compose/ui/KeyedComposedModifier**->**(**)**
+HSPLandroidx/compose/ui/MotionDurationScale**->**(**)**
+#
+# autofill
+HSPLandroidx/compose/ui/autofill/AndroidAutofill**->**(**)**
+HSPLandroidx/compose/ui/autofill/AutofillCallback;->**(**)**
+HSPLandroidx/compose/ui/autofill/AutofillTree;->**(**)**
+#
+# draw
+HSPLandroidx/compose/ui/draw/ClipKt**->**(**)**
+HSPLandroidx/compose/ui/draw/DrawBackgroundModifier;->**(**)**
+HSPLandroidx/compose/ui/draw/DrawBehindElement;->**(**)**
+HSPLandroidx/compose/ui/draw/DrawResult;->**(**)**
+HSPLandroidx/compose/ui/draw/DrawModifier**->**(**)**
+HSPLandroidx/compose/ui/draw/ShadowKt**->**(**)**
+#
+# focus
+HSPLandroidx/compose/ui/focus/FocusChangedModifier**->**(**)**
+HSPLandroidx/compose/ui/focus/FocusDirection;->**(**)**
+HSPLandroidx/compose/ui/focus/FocusEventModifierKt**->**(**)**
+HSPLandroidx/compose/ui/focus/FocusEventModifierLocal;->**(**)**
+HSPLandroidx/compose/ui/focus/FocusInvalidationManager;->**(**)**
+HSPLandroidx/compose/ui/focus/FocusManagerImpl;->**(**)**
+HSPLandroidx/compose/ui/focus/FocusManagerKt**->**(**)**
+HSPLandroidx/compose/ui/focus/FocusModifier**->**(**)**
+HSPLandroidx/compose/ui/focus/FocusOwnerImpl**->**(**)**
+HSPLandroidx/compose/ui/focus/FocusProperties**->**(**)**
+HSPLandroidx/compose/ui/focus/FocusRequester**->**(**)**
+HSPLandroidx/compose/ui/focus/FocusStateImpl;->**(**)**
+HSPLandroidx/compose/ui/focus/FocusTargetNode**->**(**)**
+HSPLandroidx/compose/ui/focus/FocusTransactionManager;->**(**)**
+
+#
+# geometry include everything
+HSPLandroidx/compose/ui/geometry/**->**(**)**
+
+#
+# graphics include everything
+HSPLandroidx/compose/ui/graphics/**->**(**)**
+
+# input
+HSPLandroidx/compose/ui/input/InputMode;->**(**)**
+HSPLandroidx/compose/ui/input/InputModeManagerImpl;->**(**)**
+HSPLandroidx/compose/ui/input/key/KeyInputElement**->**(**)**
+
+# nested scroll
+HSPLandroidx/compose/ui/input/nestedscroll/NestedScrollDelegatingWrapper;->**(**)**
+HSPLandroidx/compose/ui/input/nestedscroll/NestedScrollDispatcher**->**(**)**
+HSPLandroidx/compose/ui/input/nestedscroll/NestedScrollNode**->**(**)**
+#
+# pointer input
+HSPLandroidx/compose/ui/input/pointer/AwaitPointerEventScope**->**(**)**
+HSPLandroidx/compose/ui/input/pointer/ConsumedData;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/HistoricalChange;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/HitPathTracker;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/InternalPointerEvent;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/MotionEventAdapter;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/MotionEventAdapter_androidKt;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/Node;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/NodeParent;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerEvent;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerEventKt;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerEventPass;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerId;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerInputChange;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerInputChangeEventProducer**->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerInputEvent;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerInputEventData;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerInputEventProcessor;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerInputFilter;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerInputModifier$DefaultImpls;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerInteropFilter**->**(**)**
+HSPLandroidx/compose/ui/input/pointer/RequestDisallowInterceptTouchEvent;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/ProcessResult;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/PointerType;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/SuspendingPointerInputFilter**->**(**)**
+HSPLandroidx/compose/ui/input/pointer/util/ImpulseCalculator;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/util/Matrix;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/util/PointAtTime;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/util/PointerIdArray;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/util/PolynomialFit;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/util/VelocityEstimate;->**(**)**
+HSPLandroidx/compose/ui/input/pointer/util/VelocityTracker**->**(**)**
+
+#
+# rotary
+HSPLandroidx/compose/ui/input/rotary/RotaryInputModifier**->**(**)**
+
+#
+# layout. include everything
+HSPLandroidx/compose/ui/layout/**->**(**)**
+#
+# modifier. include everything
+HSPLandroidx/compose/ui/modifier/**->**(**)**
+#
+# node. include everything
+HSPLandroidx/compose/ui/node/**->**(**)**
+#
+# platform
+HSPLandroidx/compose/ui/platform/AndroidComposeView**->**(**)**
+HSPLandroidx/compose/ui/platform/AbstractComposeView**->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidComposeViewAccessibilityDelegateCompat**->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidComposeViewForceDarkMode**->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidComposeViewVerificationHelperMethods**->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidComposeView_androidKt;->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidCompositionLocals_androidKt**->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidFontResourceLoader;->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidTextToolbar;->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidUiDispatcher**->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidUiFrameClock**->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidUriHandler;->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidViewConfiguration;->**(**)**
+HSPLandroidx/compose/ui/platform/AndroidViewsHandler;->**(**)**
+HSPLandroidx/compose/ui/platform/ComposableSingletons**->**(**)**
+HSPLandroidx/compose/ui/platform/ComposeView**->**(**)**
+HSPLandroidx/compose/ui/platform/CompositionLocalsKt**->**(**)**
+HSPLandroidx/compose/ui/platform/DisposableSaveableStateRegistry;->**(**)**
+HSPLandroidx/compose/ui/platform/DisposableSaveableStateRegistry_androidKt**->**(**)**
+HSPLandroidx/compose/ui/platform/GlobalSnapshotManager**->**(**)**
+HSPLandroidx/compose/ui/platform/InspectableModifier**->**(**)**
+HSPLandroidx/compose/ui/platform/InspectableValueKt**->**(**)**
+HSPLandroidx/compose/ui/platform/InspectorValueInfo;-><init>(Lkotlin/jvm/functions/Function1;)V
+HSPLandroidx/compose/ui/platform/InvertMatrixKt;->**(**)**
+HSPLandroidx/compose/ui/platform/LayerMatrixCache;->**(**)**
+HSPLandroidx/compose/ui/platform/MotionDurationScaleImpl;->**(**)**
+HSPLandroidx/compose/ui/platform/RenderNodeLayer**->**(**)**
+HSPLandroidx/compose/ui/platform/RenderNodeApi**->**(**)**
+HSPLandroidx/compose/ui/platform/OutlineResolver;->**(**)**
+HSPLandroidx/compose/ui/platform/RenderNodeMatrixCache;->**(**)**
+HSPLandroidx/compose/ui/platform/ViewCompositionStrategy**->**(**)**
+HSPLandroidx/compose/ui/platform/ViewLayer;->**(**)**
+HSPLandroidx/compose/ui/platform/WeakCache;->**(**)**
+HSPLandroidx/compose/ui/platform/WindowInfoImpl;->**(**)**
+HSPLandroidx/compose/ui/platform/WindowRecomposerPolicy**->**(**)**
+HSPLandroidx/compose/ui/platform/WindowRecomposer_androidKt**->**(**)**
+HSPLandroidx/compose/ui/platform/WrappedComposition**->**(**)**
+HSPLandroidx/compose/ui/platform/WrapperRenderNodeLayerHelperMethods**->**(**)**
+HSPLandroidx/compose/ui/platform/Wrapper**->**(**)**
+HSPLandroidx/compose/ui/platform/accessibility/CollectionInfoKt;->**(**)**
+#
+# semantics
+HSPLandroidx/compose/ui/semantics/AccessibilityAction;->**(**)**
+HSPLandroidx/compose/ui/semantics/AppendedSemanticsElement;->**(**)**
+HSPLandroidx/compose/ui/semantics/CollectionInfo;->**(**)**
+HSPLandroidx/compose/ui/semantics/CoreSemanticsModifierNode;->**(**)**
+HSPLandroidx/compose/ui/semantics/EmptySemanticsElement;->**(**)**
+HSPLandroidx/compose/ui/semantics/NodeLocationHolder;->**(**)**
+HSPLandroidx/compose/ui/semantics/Role;->**(**)**
+HSPLandroidx/compose/ui/semantics/ScrollAxisRange;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsActions;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsConfiguration;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsEntity;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsModifier$DefaultImpls;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsModifierCore$Companion;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsModifierCore;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsModifierKt**->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsNode;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsNode$parent$1;->**(**)**
+HSPLandroidx/compose/ui/platform/SemanticsNodeWithAdjustedBounds;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsNodeKt;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsOwner;->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsProperties**->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsPropertiesKt**->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsPropertyKey**->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsSort**->**(**)**
+HSPLandroidx/compose/ui/semantics/SemanticsWrapper;->**(**)**
+#
+# res
+HSPLandroidx/compose/ui/res/ImageVectorCache;->**(**)**
+HSPLandroidx/compose/ui/res/StringResources_androidKt;->**(**)**
+HSPLandroidx/compose/ui/res/PainterResources_androidKt;->**(**)**
+HSPLandroidx/compose/ui/res/ImageResources_androidKt;->**(**)**
+
 # Baseline profile rules for androidx.compose.foundation
 # =============================================
 #
@@ -1559,57 +2028,6 @@ HSPLandroidx/compose/foundation/text/selection/TextFieldSelectionManager;->**(**
 #
 # Include all of foundation
 Landroidx/compose/foundation/**;
-
-# Baseline profile rules for androidx.compose.animation.core
-# =============================================
-# In practice it seems like almost every class in animation/core ends up getting loaded in even a
-# relatively small sample, and most end up getting marked as "HSP". Since Animation is a high value
-# target for performance - fade in, scroll, etc we are going to be liberal in the animation profile
-# rules and just mark the entire module.
-
-HSPLandroidx/compose/animation/core/**->**(**)**
-
-Landroidx/compose/animation/core/**;
-
-# Baseline profile rules for androidx.compose.animation
-# =============================================
-HSPLandroidx/compose/animation/AndroidFlingSpline**;->**(**)**
-HSPLandroidx/compose/animation/AnimatedVisibilityKt**->**(**)**
-HSPLandroidx/compose/animation/AnimatedVisibilityScope;-><init>(**)V
-HSPLandroidx/compose/animation/ChangeSize;->**(**)**
-HSPLandroidx/compose/animation/ColorVectorConverterKt**->**(**)**
-HSPLandroidx/compose/animation/CrossfadeAnimationItem;->**(**)**
-HSPLandroidx/compose/animation/CrossfadeKt**->**(**)**
-HSPLandroidx/compose/animation/EnterExitTransitionKt;->**(**)**
-HSPLandroidx/compose/animation/FlingCalculator**;->**(**)**
-HSPLandroidx/compose/animation/SingleValueAnimationKt;->**(**)**
-HSPLandroidx/compose/animation/SplineBasedFloatDecayAnimationSpec**->**(**)**
-HSPLandroidx/compose/animation/SplineBasedDecayKt;->**(**)**
-HSPLandroidx/compose/animation/TransitionData;->**(**)**
-
-# Include all of androidx.compose.animation
-Landroidx/compose/animation/*;
-# Baseline profile rules for androidx.compose.foundation.layout
-# =============================================
-# Layout is incredibly important for performance, and represents many hot code paths. For now, we
-# will include all of the layout namespace
-HSPLandroidx/compose/foundation/layout/**->**(**)**
-Landroidx/compose/foundation/layout/**;
-# Baseline profile rules for androidx.compose.ui.geometry
-# =============================================
-# All of geometry is highly used, small, and mathy, so we include everything
-HSPLandroidx/compose/ui/geometry/*;->**(**)**
-Landroidx/compose/ui/geometry/*;
-# Baseline profile rules for androidx.compose.ui.unit
-# =============================================
-# everything in unit is relatively small and in the hot path, so we just add everything
-HSPLandroidx/compose/ui/unit/**->**(**)**
-Landroidx/compose/ui/unit/**
-
-# Baseline profile rules for androidx.compose.ui.util
-# =============================================
-HSPLandroidx/compose/ui/util/MathHelpersKt;->lerp(FFF)F
-Landroidx/compose/ui/util/MathHelpersKt;
 
 # Baseline profile rules for androidx.compose.ui.text
 # =============================================
@@ -1827,190 +2245,6 @@ HSPLandroidx/compose/ui/graphics/vector/compat/XmlVectorParser_androidKt;->**(**
 #
 # Assume ~all classes will get loaded
 Landroidx/compose/ui/graphics/**;
-# Baseline profile rules for androidx.compose.ui
-# =============================================
-#
-
-#
-# root level things
-HSPLandroidx/compose/ui/Alignment**->**(**)**
-HSPLandroidx/compose/ui/BiasAlignment**->**(**)**
-HSPLandroidx/compose/ui/Modifier**->**(**)**
-HSPLandroidx/compose/ui/CombinedModifier**->**(**)**
-HSPLandroidx/compose/ui/ComposedModifier**->**(**)**
-HSPLandroidx/compose/ui/KeyedComposedModifier**->**(**)**
-HSPLandroidx/compose/ui/MotionDurationScale**->**(**)**
-#
-# autofill
-HSPLandroidx/compose/ui/autofill/AndroidAutofill**->**(**)**
-HSPLandroidx/compose/ui/autofill/AutofillCallback;->**(**)**
-HSPLandroidx/compose/ui/autofill/AutofillTree;->**(**)**
-#
-# draw
-HSPLandroidx/compose/ui/draw/ClipKt**->**(**)**
-HSPLandroidx/compose/ui/draw/DrawBackgroundModifier;->**(**)**
-HSPLandroidx/compose/ui/draw/DrawBehindElement;->**(**)**
-HSPLandroidx/compose/ui/draw/DrawResult;->**(**)**
-HSPLandroidx/compose/ui/draw/DrawModifier**->**(**)**
-HSPLandroidx/compose/ui/draw/ShadowKt**->**(**)**
-#
-# focus
-HSPLandroidx/compose/ui/focus/FocusChangedModifier**->**(**)**
-HSPLandroidx/compose/ui/focus/FocusDirection;->**(**)**
-HSPLandroidx/compose/ui/focus/FocusEventModifierKt**->**(**)**
-HSPLandroidx/compose/ui/focus/FocusEventModifierLocal;->**(**)**
-HSPLandroidx/compose/ui/focus/FocusInvalidationManager;->**(**)**
-HSPLandroidx/compose/ui/focus/FocusManagerImpl;->**(**)**
-HSPLandroidx/compose/ui/focus/FocusManagerKt**->**(**)**
-HSPLandroidx/compose/ui/focus/FocusModifier**->**(**)**
-HSPLandroidx/compose/ui/focus/FocusOwnerImpl**->**(**)**
-HSPLandroidx/compose/ui/focus/FocusProperties**->**(**)**
-HSPLandroidx/compose/ui/focus/FocusRequester**->**(**)**
-HSPLandroidx/compose/ui/focus/FocusStateImpl;->**(**)**
-HSPLandroidx/compose/ui/focus/FocusTargetNode**->**(**)**
-HSPLandroidx/compose/ui/focus/FocusTransactionManager;->**(**)**
-
-#
-# geometry include everything
-HSPLandroidx/compose/ui/geometry/**->**(**)**
-
-#
-# graphics include everything
-HSPLandroidx/compose/ui/graphics/**->**(**)**
-
-# input
-HSPLandroidx/compose/ui/input/InputMode;->**(**)**
-HSPLandroidx/compose/ui/input/InputModeManagerImpl;->**(**)**
-HSPLandroidx/compose/ui/input/key/KeyInputElement**->**(**)**
-
-# nested scroll
-HSPLandroidx/compose/ui/input/nestedscroll/NestedScrollDelegatingWrapper;->**(**)**
-HSPLandroidx/compose/ui/input/nestedscroll/NestedScrollDispatcher**->**(**)**
-HSPLandroidx/compose/ui/input/nestedscroll/NestedScrollNode**->**(**)**
-#
-# pointer input
-HSPLandroidx/compose/ui/input/pointer/AwaitPointerEventScope**->**(**)**
-HSPLandroidx/compose/ui/input/pointer/ConsumedData;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/HistoricalChange;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/HitPathTracker;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/InternalPointerEvent;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/MotionEventAdapter;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/MotionEventAdapter_androidKt;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/Node;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/NodeParent;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerEvent;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerEventKt;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerEventPass;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerId;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerInputChange;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerInputChangeEventProducer**->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerInputEvent;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerInputEventData;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerInputEventProcessor;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerInputFilter;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerInputModifier$DefaultImpls;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerInteropFilter**->**(**)**
-HSPLandroidx/compose/ui/input/pointer/RequestDisallowInterceptTouchEvent;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/ProcessResult;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/PointerType;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/SuspendingPointerInputFilter**->**(**)**
-HSPLandroidx/compose/ui/input/pointer/util/ImpulseCalculator;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/util/Matrix;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/util/PointAtTime;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/util/PointerIdArray;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/util/PolynomialFit;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/util/VelocityEstimate;->**(**)**
-HSPLandroidx/compose/ui/input/pointer/util/VelocityTracker**->**(**)**
-
-#
-# rotary
-HSPLandroidx/compose/ui/input/rotary/RotaryInputModifier**->**(**)**
-
-#
-# layout. include everything
-HSPLandroidx/compose/ui/layout/**->**(**)**
-#
-# modifier. include everything
-HSPLandroidx/compose/ui/modifier/**->**(**)**
-#
-# node. include everything
-HSPLandroidx/compose/ui/node/**->**(**)**
-#
-# platform
-HSPLandroidx/compose/ui/platform/AndroidComposeView**->**(**)**
-HSPLandroidx/compose/ui/platform/AbstractComposeView**->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidComposeViewAccessibilityDelegateCompat**->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidComposeViewForceDarkMode**->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidComposeViewVerificationHelperMethods**->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidComposeView_androidKt;->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidCompositionLocals_androidKt**->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidFontResourceLoader;->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidTextToolbar;->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidUiDispatcher**->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidUiFrameClock**->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidUriHandler;->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidViewConfiguration;->**(**)**
-HSPLandroidx/compose/ui/platform/AndroidViewsHandler;->**(**)**
-HSPLandroidx/compose/ui/platform/ComposableSingletons**->**(**)**
-HSPLandroidx/compose/ui/platform/ComposeView**->**(**)**
-HSPLandroidx/compose/ui/platform/CompositionLocalsKt**->**(**)**
-HSPLandroidx/compose/ui/platform/DisposableSaveableStateRegistry;->**(**)**
-HSPLandroidx/compose/ui/platform/DisposableSaveableStateRegistry_androidKt**->**(**)**
-HSPLandroidx/compose/ui/platform/GlobalSnapshotManager**->**(**)**
-HSPLandroidx/compose/ui/platform/InspectableModifier**->**(**)**
-HSPLandroidx/compose/ui/platform/InspectableValueKt**->**(**)**
-HSPLandroidx/compose/ui/platform/InspectorValueInfo;-><init>(Lkotlin/jvm/functions/Function1;)V
-HSPLandroidx/compose/ui/platform/InvertMatrixKt;->**(**)**
-HSPLandroidx/compose/ui/platform/LayerMatrixCache;->**(**)**
-HSPLandroidx/compose/ui/platform/MotionDurationScaleImpl;->**(**)**
-HSPLandroidx/compose/ui/platform/RenderNodeLayer**->**(**)**
-HSPLandroidx/compose/ui/platform/RenderNodeApi**->**(**)**
-HSPLandroidx/compose/ui/platform/OutlineResolver;->**(**)**
-HSPLandroidx/compose/ui/platform/RenderNodeMatrixCache;->**(**)**
-HSPLandroidx/compose/ui/platform/ViewCompositionStrategy**->**(**)**
-HSPLandroidx/compose/ui/platform/ViewLayer;->**(**)**
-HSPLandroidx/compose/ui/platform/WeakCache;->**(**)**
-HSPLandroidx/compose/ui/platform/WindowInfoImpl;->**(**)**
-HSPLandroidx/compose/ui/platform/WindowRecomposerPolicy**->**(**)**
-HSPLandroidx/compose/ui/platform/WindowRecomposer_androidKt**->**(**)**
-HSPLandroidx/compose/ui/platform/WrappedComposition**->**(**)**
-HSPLandroidx/compose/ui/platform/WrapperRenderNodeLayerHelperMethods**->**(**)**
-HSPLandroidx/compose/ui/platform/Wrapper**->**(**)**
-HSPLandroidx/compose/ui/platform/accessibility/CollectionInfoKt;->**(**)**
-#
-# semantics
-HSPLandroidx/compose/ui/semantics/AccessibilityAction;->**(**)**
-HSPLandroidx/compose/ui/semantics/AppendedSemanticsElement;->**(**)**
-HSPLandroidx/compose/ui/semantics/CollectionInfo;->**(**)**
-HSPLandroidx/compose/ui/semantics/CoreSemanticsModifierNode;->**(**)**
-HSPLandroidx/compose/ui/semantics/EmptySemanticsElement;->**(**)**
-HSPLandroidx/compose/ui/semantics/NodeLocationHolder;->**(**)**
-HSPLandroidx/compose/ui/semantics/Role;->**(**)**
-HSPLandroidx/compose/ui/semantics/ScrollAxisRange;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsActions;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsConfiguration;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsEntity;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsModifier$DefaultImpls;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsModifierCore$Companion;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsModifierCore;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsModifierKt**->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsNode;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsNode$parent$1;->**(**)**
-HSPLandroidx/compose/ui/platform/SemanticsNodeWithAdjustedBounds;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsNodeKt;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsOwner;->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsProperties**->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsPropertiesKt**->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsPropertyKey**->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsSort**->**(**)**
-HSPLandroidx/compose/ui/semantics/SemanticsWrapper;->**(**)**
-#
-# res
-HSPLandroidx/compose/ui/res/ImageVectorCache;->**(**)**
-HSPLandroidx/compose/ui/res/StringResources_androidKt;->**(**)**
-HSPLandroidx/compose/ui/res/PainterResources_androidKt;->**(**)**
-HSPLandroidx/compose/ui/res/ImageResources_androidKt;->**(**)**
-
 # Baseline profiles for lifecycle-process
 
 HSPLandroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
